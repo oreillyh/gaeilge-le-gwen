@@ -1,0 +1,25 @@
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-placeholder {
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.contact-placeholder p {
+  margin: 0;
+}
