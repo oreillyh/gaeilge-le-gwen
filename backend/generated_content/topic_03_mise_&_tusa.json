@@ -1,0 +1,86 @@
+{
+  "topic_id": 3,
+  "topic_name": "Mise & tusa",
+  "topic_desc": "Me & You",
+  "core_phrases": [
+    {
+      "irish": "Is mise Gwen.",
+      "english": "I am Gwen.",
+      "pronunciation_tip": "Ish mish-eh Gwen"
+    },
+    {
+      "irish": "Cá bhfuil tú?",
+      "english": "Where are you?",
+      "pronunciation_tip": "Kah will too"
+    },
+    {
+      "irish": "Is as Éireann mé.",
+      "english": "I am from Ireland.",
+      "pronunciation_tip": "Is oss Ay-ruh-uhn may"
+    },
+    {
+      "irish": "Cén t-ainm atá ort?",
+      "english": "What is your name?",
+      "pronunciation_tip": "Kane t-ain-im ah-taw ort"
+    },
+    {
+      "irish": "Tá mé i mo chónaí inaice leis an trá.",
+      "english": "I live near the beach.",
+      "pronunciation_tip": "Taw may i muh khoh-nee in-ah-kuh lesh un traw"
+    },
+    {
+      "irish": "An bhfuil tú ag obair?",
+      "english": "Are you working?",
+      "pronunciation_tip": "On will too egg ub-ir"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "ainm",
+      "english": "name",
+      "pronunciation": "an-im"
+    },
+    {
+      "irish": "áit",
+      "english": "place",
+      "pronunciation": "awt"
+    },
+    {
+      "irish": "cónaí",
+      "english": "live",
+      "pronunciation": "koh-nee"
+    },
+    {
+      "irish": "trá",
+      "english": "beach",
+      "pronunciation": "traw"
+    },
+    {
+      "irish": "obair",
+      "english": "work",
+      "pronunciation": "ub-ir"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Is' for identification",
+    "explanation": "In Irish, 'Is' is used to identify or describe someone or something.",
+    "examples": [
+      "Is mise Sarah.",
+      "Is as Sasana é.",
+      "Is maith liom é."
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the slender 's' sound in 'Is'.",
+    "Pay attention to the broad 'a' sound in 'áit'.",
+    "The 'bh' in 'bhfuil' is silent and makes a 'v' sound."
+  ],
+  "mini_task": {
+    "instruction": "Introduce yourself and ask a partner about their name and where they are from.",
+    "prompts": [
+      "Introduce yourself.",
+      "Ask your partner 'Cén t-ainm atá ort?'",
+      "Ask your partner 'Cá bhfuil tú?'"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "topic_id": 1,
+  "topic_name": "Fuaimeanna & Litriú",
+  "topic_desc": "Sounds & Spelling",
+  "core_phrases": [
+    {
+      "irish": "An bhfuil tú go maith?",
+      "english": "Are you well?",
+      "pronunciation_tip": "An will sound like 'on'"
+    },
+    {
+      "irish": "Tá mé go maith, go raibh maith agat.",
+      "english": "I'm well, thank you.",
+      "pronunciation_tip": "Tá pronounced as 'taw'"
+    },
+    {
+      "irish": "Conas atá tú inniu?",
+      "english": "How are you today?",
+      "pronunciation_tip": "Conas pronounced as 'kun-us'"
+    },
+    {
+      "irish": "Is maith liom é.",
+      "english": "I like it.",
+      "pronunciation_tip": "Is pronounced as 'iss'"
+    },
+    {
+      "irish": "Ní maith liom é.",
+      "english": "I don't like it.",
+      "pronunciation_tip": "Ní pronounced as 'knee'"
+    },
+    {
+      "irish": "Cad é sin?",
+      "english": "What is that?",
+      "pronunciation_tip": "Cad pronounced as 'cod'"
+    },
+    {
+      "irish": "Tá sé anseo.",
+      "english": "It is here.",
+      "pronunciation_tip": "Tá pronounced as 'taw'"
+    },
+    {
+      "irish": "Níl sé ann.",
+      "english": "It is not there.",
+      "pronunciation_tip": "Níl pronounced as 'neel'"
+    },
+    {
+      "irish": "An bhfuil tú ag an siopa?",
+      "english": "Are you at the shop?",
+      "pronunciation_tip": "bhfuil pronounced as 'will'"
+    },
+    {
+      "irish": "Tá mé ag an siopa.",
+      "english": "I am at the shop.",
+      "pronunciation_tip": "Tá pronounced as 'taw'"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "fada",
+      "english": "accent mark",
+      "pronunciation": "fah-dah"
+    },
+    {
+      "irish": "broad",
+      "english": "broad consonant",
+      "pronunciation": "brod"
+    },
+    {
+      "irish": "slender",
+      "english": "slender consonant",
+      "pronunciation": "slen-der"
+    },
+    {
+      "irish": "comhartha",
+      "english": "sign",
+      "pronunciation": "koh-ar-ha"
+    },
+    {
+      "irish": "litir",
+      "english": "letter",
+      "pronunciation": "lih-chir"
+    },
+    {
+      "irish": "comhcheilg",
+      "english": "common combination",
+      "pronunciation": "koh-helg"
+    },
+    {
+      "irish": "comhfhreagras",
+      "english": "common preposition",
+      "pronunciation": "koh-re-gros"
+    },
+    {
+      "irish": "comhfhocal",
+      "english": "common word",
+      "pronunciation": "koh-fo-kal"
+    },
+    {
+      "irish": "comhfhocal",
+      "english": "homophone",
+      "pronunciation": "koh-fo-kal"
+    },
+    {
+      "irish": "comhfhocal",
+      "english": "homonym",
+      "pronunciation": "koh-fo-kal"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Broad and Slender Consonants",
+    "explanation": "Irish consonants are classified as broad or slender, affecting pronunciation and spelling.",
+    "examples": [
+      "broad: m, p, g",
+      "slender: l, n, d"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice pronouncing broad and slender consonants distinctly.",
+    "Pay attention to fada (accent mark) for correct pronunciation.",
+    "Common letter combinations may change pronunciation."
+  ],
+  "mini_task": {
+    "instruction": "Practice pronouncing the following words and phrases.",
+    "prompts": [
+      "fada",
+      "comhartha",
+      "litir",
+      "comhcheilg",
+      "comhfhocal"
+    ]
+  }
+}

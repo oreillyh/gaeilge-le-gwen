@@ -1,0 +1,96 @@
+{
+  "topic_id": 8,
+  "topic_name": "Ba mhaith liom…",
+  "topic_desc": "Wants & Requests",
+  "core_phrases": [
+    {
+      "irish": "Ba mhaith liom cupán tae, le do thoil.",
+      "english": "I would like a cup of tea, please.",
+      "pronunciation_tip": "Bah wyth lum coo-pawn tay, leh duh hull."
+    },
+    {
+      "irish": "An bhfuil tú in ann cabhrú liom?",
+      "english": "Can you help me?",
+      "pronunciation_tip": "On will too in on cow-roo lum?"
+    },
+    {
+      "irish": "Ba mhaith liom dul go dtí an siopa.",
+      "english": "I would like to go to the shop.",
+      "pronunciation_tip": "Bah wyth lum dule guh dee un shop-ah."
+    },
+    {
+      "irish": "An bhfuil an leabhar sin ar fáil?",
+      "english": "Is that book available?",
+      "pronunciation_tip": "On will on lour sin air fawl?"
+    },
+    {
+      "irish": "Ba mhaith liom ordú a dhéanamh.",
+      "english": "I would like to place an order.",
+      "pronunciation_tip": "Bah wyth lum or-doo ah yayn-uv."
+    },
+    {
+      "irish": "An bhfuil cead agam dul amach?",
+      "english": "May I go out?",
+      "pronunciation_tip": "On will kade ah-gum dule ah-mock?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "cupán tae",
+      "english": "cup of tea",
+      "pronunciation": "coo-pawn tay"
+    },
+    {
+      "irish": "cabhrú",
+      "english": "help",
+      "pronunciation": "cow-roo"
+    },
+    {
+      "irish": "siopa",
+      "english": "shop",
+      "pronunciation": "shop-ah"
+    },
+    {
+      "irish": "leabhar",
+      "english": "book",
+      "pronunciation": "lour"
+    },
+    {
+      "irish": "ordú",
+      "english": "order",
+      "pronunciation": "or-doo"
+    },
+    {
+      "irish": "cead",
+      "english": "permission",
+      "pronunciation": "kade"
+    },
+    {
+      "irish": "amach",
+      "english": "out",
+      "pronunciation": "ah-mock"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Ba mhaith liom' for expressing wants",
+    "explanation": "The phrase 'Ba mhaith liom' is used to express desires or wants in Irish. It is followed by the verb or noun that the speaker wants.",
+    "examples": [
+      "Ba mhaith liom bia.",
+      "Ba mhaith liom dul go dtí an phictiúrlann."
+    ]
+  },
+  "pronunciation_notes": [
+    "Remember to pronounce 'mh' as a 'w' sound.",
+    "Pay attention to the slender 'mhaith' sound.",
+    "Practice the pronunciation of 'dtí' as 'dee'.",
+    "The 'mh' in 'mhaith' is silent in pronunciation."
+  ],
+  "mini_task": {
+    "instruction": "Imagine you are in a café. Order a drink and ask for the bill.",
+    "prompts": [
+      "Order a cup of coffee.",
+      "Ask for the bill, please.",
+      "Thank the server."
+    ]
+  }
+}

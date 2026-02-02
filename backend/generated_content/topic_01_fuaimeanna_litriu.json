@@ -1,0 +1,95 @@
+{
+  "topic_id": 1,
+  "topic_name": "Fuaimeanna & Litriú",
+  "topic_desc": "Sounds & Spelling",
+  "core_phrases": [
+    {
+      "irish": "Conas atá tú?",
+      "english": "How are you?",
+      "pronunciation_tip": "Kun-us ah-taw too"
+    },
+    {
+      "irish": "Dia dhuit",
+      "english": "Hello (to one person)",
+      "pronunciation_tip": "Dee-ah gwitch"
+    },
+    {
+      "irish": "Go raibh maith agat",
+      "english": "Thank you",
+      "pronunciation_tip": "Guh rev mah ag-ut"
+    },
+    {
+      "irish": "Slán go fóill",
+      "english": "Goodbye for now",
+      "pronunciation_tip": "Slawn guh fole"
+    },
+    {
+      "irish": "An bhfuil cead agam dul go dtí an leithreas?",
+      "english": "May I go to the bathroom?",
+      "pronunciation_tip": "On will cad ah-gum dull guh dee un leh-hras"
+    },
+    {
+      "irish": "Tá mé ag foghlaim Gaeilge",
+      "english": "I am learning Irish",
+      "pronunciation_tip": "Taw may egg fwee-lim Gwayl-guh"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "fada",
+      "english": "accent mark (á, é, í, ó, ú)",
+      "pronunciation": "fah-dah"
+    },
+    {
+      "irish": "broad consonant",
+      "english": "consonant pronounced with a wider mouth shape",
+      "pronunciation": "brawd con-so-nant"
+    },
+    {
+      "irish": "slender consonant",
+      "english": "consonant pronounced with a narrower mouth shape",
+      "pronunciation": "slen-der con-so-nant"
+    },
+    {
+      "irish": "comhartha",
+      "english": "sign",
+      "pronunciation": "co-war-ha"
+    },
+    {
+      "irish": "litir",
+      "english": "letter",
+      "pronunciation": "li-tir"
+    },
+    {
+      "irish": "fuaimeanna",
+      "english": "sounds",
+      "pronunciation": "foo-im-anna"
+    },
+    {
+      "irish": "litriú",
+      "english": "spelling",
+      "pronunciation": "li-troo"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Broad & Slender Consonants",
+    "explanation": "In Irish, consonants can be broad or slender, affecting the pronunciation of nearby vowels. Broad consonants are pronounced with a wider mouth shape, while slender consonants are pronounced with a narrower mouth shape.",
+    "examples": [
+      "broad: mór (big), slender: mín (small)",
+      "broad: doras (door), slender: deas (nice)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice pronouncing broad and slender consonants to improve your Irish accent.",
+    "Pay attention to fada (accent marks) as they change the pronunciation of vowels."
+  ],
+  "mini_task": {
+    "instruction": "Practice pronouncing the following words focusing on broad and slender consonants:",
+    "prompts": [
+      "mór (big)",
+      "mín (small)",
+      "doras (door)",
+      "deas (nice)"
+    ]
+  }
+}

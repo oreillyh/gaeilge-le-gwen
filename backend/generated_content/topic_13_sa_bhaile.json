@@ -1,0 +1,94 @@
+{
+  "topic_id": 13,
+  "topic_name": "Sa bhaile",
+  "topic_desc": "At Home",
+  "core_phrases": [
+    {
+      "irish": "Tá sé anseo.",
+      "english": "It is here.",
+      "pronunciation_tip": "Taw shay on-shuh"
+    },
+    {
+      "irish": "Tá an seomra suite.",
+      "english": "The living room is tidy.",
+      "pronunciation_tip": "Taw on shohm-ruh suit-eh"
+    },
+    {
+      "irish": "Tá an leaba compordach.",
+      "english": "The bed is comfortable.",
+      "pronunciation_tip": "Taw on lah-buh kum-pur-dakh"
+    },
+    {
+      "irish": "Tá an chistin glan.",
+      "english": "The kitchen is clean.",
+      "pronunciation_tip": "Taw on kish-tin glahn"
+    },
+    {
+      "irish": "Tá an seomra folctha.",
+      "english": "The bathroom is clean.",
+      "pronunciation_tip": "Taw on shohm-ruh fohlk-thah"
+    },
+    {
+      "irish": "Tá an seomra codlata suite.",
+      "english": "The bedroom is tidy.",
+      "pronunciation_tip": "Taw on shohm-ruh kud-lah-tuh suit-eh"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "cistin",
+      "english": "kitchen",
+      "pronunciation": "kish-tin"
+    },
+    {
+      "irish": "leaba",
+      "english": "bed",
+      "pronunciation": "lah-buh"
+    },
+    {
+      "irish": "seomra folctha",
+      "english": "bathroom",
+      "pronunciation": "shohm-ruh fohlk-thah"
+    },
+    {
+      "irish": "seomra suite",
+      "english": "living room",
+      "pronunciation": "shohm-ruh suit-eh"
+    },
+    {
+      "irish": "seomra codlata",
+      "english": "bedroom",
+      "pronunciation": "shohm-ruh kud-lah-tuh"
+    },
+    {
+      "irish": "glan",
+      "english": "clean",
+      "pronunciation": "glahn"
+    },
+    {
+      "irish": "compordach",
+      "english": "comfortable",
+      "pronunciation": "kum-pur-dakh"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Tá' for stating",
+    "explanation": "Use 'Tá' to indicate that something is in a particular state or condition.",
+    "examples": [
+      "Tá an seomra folctha.",
+      "Tá an leaba compordach."
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the broad/slender vowel sounds.",
+    "Pay attention to the 'tá' sound, it's like 'taw' in English."
+  ],
+  "mini_task": {
+    "instruction": "Describe your home using at least 3 vocabulary words.",
+    "prompts": [
+      "What is in your kitchen?",
+      "How would you describe your bedroom?",
+      "Is your living room tidy or messy? Why?"
+    ]
+  }
+}

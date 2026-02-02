@@ -1,0 +1,1846 @@
+{
+  "course_name": "Gaeilge le Gwen - Beginner Course",
+  "total_topics": 20,
+  "topics": [
+    {
+      "topic_id": 1,
+      "topic_name": "Fuaimeanna & Litriú",
+      "topic_desc": "Sounds & Spelling",
+      "core_phrases": [
+        {
+          "irish": "An bhfuil tú go maith?",
+          "english": "Are you well?",
+          "pronunciation_tip": "An will sound like 'on'"
+        },
+        {
+          "irish": "Tá mé go maith, go raibh maith agat.",
+          "english": "I'm well, thank you.",
+          "pronunciation_tip": "Tá pronounced as 'taw'"
+        },
+        {
+          "irish": "Conas atá tú inniu?",
+          "english": "How are you today?",
+          "pronunciation_tip": "Conas pronounced as 'kun-us'"
+        },
+        {
+          "irish": "Is maith liom é.",
+          "english": "I like it.",
+          "pronunciation_tip": "Is pronounced as 'iss'"
+        },
+        {
+          "irish": "Ní maith liom é.",
+          "english": "I don't like it.",
+          "pronunciation_tip": "Ní pronounced as 'knee'"
+        },
+        {
+          "irish": "Cad é sin?",
+          "english": "What is that?",
+          "pronunciation_tip": "Cad pronounced as 'cod'"
+        },
+        {
+          "irish": "Tá sé anseo.",
+          "english": "It is here.",
+          "pronunciation_tip": "Tá pronounced as 'taw'"
+        },
+        {
+          "irish": "Níl sé ann.",
+          "english": "It is not there.",
+          "pronunciation_tip": "Níl pronounced as 'neel'"
+        },
+        {
+          "irish": "An bhfuil tú ag an siopa?",
+          "english": "Are you at the shop?",
+          "pronunciation_tip": "bhfuil pronounced as 'will'"
+        },
+        {
+          "irish": "Tá mé ag an siopa.",
+          "english": "I am at the shop.",
+          "pronunciation_tip": "Tá pronounced as 'taw'"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "fada",
+          "english": "accent mark",
+          "pronunciation": "fah-dah"
+        },
+        {
+          "irish": "broad",
+          "english": "broad consonant",
+          "pronunciation": "brod"
+        },
+        {
+          "irish": "slender",
+          "english": "slender consonant",
+          "pronunciation": "slen-der"
+        },
+        {
+          "irish": "comhartha",
+          "english": "sign",
+          "pronunciation": "koh-ar-ha"
+        },
+        {
+          "irish": "litir",
+          "english": "letter",
+          "pronunciation": "lih-chir"
+        },
+        {
+          "irish": "comhcheilg",
+          "english": "common combination",
+          "pronunciation": "koh-helg"
+        },
+        {
+          "irish": "comhfhreagras",
+          "english": "common preposition",
+          "pronunciation": "koh-re-gros"
+        },
+        {
+          "irish": "comhfhocal",
+          "english": "common word",
+          "pronunciation": "koh-fo-kal"
+        },
+        {
+          "irish": "comhfhocal",
+          "english": "homophone",
+          "pronunciation": "koh-fo-kal"
+        },
+        {
+          "irish": "comhfhocal",
+          "english": "homonym",
+          "pronunciation": "koh-fo-kal"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Broad and Slender Consonants",
+        "explanation": "Irish consonants are classified as broad or slender, affecting pronunciation and spelling.",
+        "examples": [
+          "broad: m, p, g",
+          "slender: l, n, d"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice pronouncing broad and slender consonants distinctly.",
+        "Pay attention to fada (accent mark) for correct pronunciation.",
+        "Common letter combinations may change pronunciation."
+      ],
+      "mini_task": {
+        "instruction": "Practice pronouncing the following words and phrases.",
+        "prompts": [
+          "fada",
+          "comhartha",
+          "litir",
+          "comhcheilg",
+          "comhfhocal"
+        ]
+      }
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Beannachtaí & Béasaíocht",
+      "topic_desc": "Greetings & Manners",
+      "core_phrases": [
+        {
+          "irish": "Dia duit",
+          "english": "Hello",
+          "pronunciation_tip": "dee-uh ditch"
+        },
+        {
+          "irish": "Conas atá tú?",
+          "english": "How are you?",
+          "pronunciation_tip": "kun-us ah-taw too"
+        },
+        {
+          "irish": "Go raibh maith agat",
+          "english": "Thank you",
+          "pronunciation_tip": "guh rev mah ah-gut"
+        },
+        {
+          "irish": "Le do thoil",
+          "english": "Please",
+          "pronunciation_tip": "leh duh hull"
+        },
+        {
+          "irish": "Abair arís é",
+          "english": "Say it again",
+          "pronunciation_tip": "ab-ir ah-reesh ay"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "Dia",
+          "english": "God",
+          "pronunciation": "dee-uh"
+        },
+        {
+          "irish": "Slán",
+          "english": "Goodbye",
+          "pronunciation": "slawn"
+        },
+        {
+          "irish": "Go raibh maith agat",
+          "english": "Thank you",
+          "pronunciation": "guh rev mah ah-gut"
+        },
+        {
+          "irish": "Míle buíochas",
+          "english": "Many thanks",
+          "pronunciation": "mee-leh boo-ee-khuss"
+        },
+        {
+          "irish": "Más é do thoil é",
+          "english": "Please",
+          "pronunciation": "maws ay duh hull ay"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Lenition (séimhiú)",
+        "explanation": "In Irish, the initial consonant of a noun can be lenited (séimhiú) after certain words like 'le' (with). This is indicated by adding an h after the initial consonant.",
+        "examples": [
+          "leabhar (book) → leabhair (with a book)",
+          "cathaoir (chair) → chathaoir (with a chair)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Irish pronunciation is phonetic, so pronounce each letter.",
+        "Pay attention to slender (i, e) and broad (a, o, u) vowels.",
+        "Practice speaking slowly and gradually increase your speed."
+      ],
+      "mini_task": {
+        "instruction": "Record a short greeting introducing yourself and thanking someone.",
+        "prompts": [
+          "Introduce yourself and say 'Hello'",
+          "Thank the person and say 'Please'",
+          "Ask how the person is doing and say 'Thank you'"
+        ]
+      }
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Mise & tusa",
+      "topic_desc": "Me & You",
+      "core_phrases": [
+        {
+          "irish": "Is mise Gwen.",
+          "english": "I am Gwen.",
+          "pronunciation_tip": "Ish mish-eh Gwen"
+        },
+        {
+          "irish": "Cá bhfuil tú?",
+          "english": "Where are you?",
+          "pronunciation_tip": "Kah will too"
+        },
+        {
+          "irish": "Is as Éireann mé.",
+          "english": "I am from Ireland.",
+          "pronunciation_tip": "Is oss Ay-ruh-uhn may"
+        },
+        {
+          "irish": "Cén t-ainm atá ort?",
+          "english": "What is your name?",
+          "pronunciation_tip": "Kane t-ain-im ah-taw ort"
+        },
+        {
+          "irish": "Tá mé i mo chónaí inaice leis an trá.",
+          "english": "I live near the beach.",
+          "pronunciation_tip": "Taw may i muh khoh-nee in-ah-kuh lesh un traw"
+        },
+        {
+          "irish": "An bhfuil tú ag obair?",
+          "english": "Are you working?",
+          "pronunciation_tip": "On will too egg ub-ir"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "ainm",
+          "english": "name",
+          "pronunciation": "an-im"
+        },
+        {
+          "irish": "áit",
+          "english": "place",
+          "pronunciation": "awt"
+        },
+        {
+          "irish": "cónaí",
+          "english": "live",
+          "pronunciation": "koh-nee"
+        },
+        {
+          "irish": "trá",
+          "english": "beach",
+          "pronunciation": "traw"
+        },
+        {
+          "irish": "obair",
+          "english": "work",
+          "pronunciation": "ub-ir"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Is' for identification",
+        "explanation": "In Irish, 'Is' is used to identify or describe someone or something.",
+        "examples": [
+          "Is mise Sarah.",
+          "Is as Sasana é.",
+          "Is maith liom é."
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the slender 's' sound in 'Is'.",
+        "Pay attention to the broad 'a' sound in 'áit'.",
+        "The 'bh' in 'bhfuil' is silent and makes a 'v' sound."
+      ],
+      "mini_task": {
+        "instruction": "Introduce yourself and ask a partner about their name and where they are from.",
+        "prompts": [
+          "Introduce yourself.",
+          "Ask your partner 'Cén t-ainm atá ort?'",
+          "Ask your partner 'Cá bhfuil tú?'"
+        ]
+      }
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Uimhreacha & Am",
+      "topic_desc": "Numbers & Time",
+      "core_phrases": [
+        {
+          "irish": "Tá a haon, a dó, a trí agam.",
+          "english": "I have one, two, three.",
+          "pronunciation_tip": "Taw uh hayn, uh doh, uh tree ah-guhm."
+        },
+        {
+          "irish": "An bhfuil a cúig nóiméad caite?",
+          "english": "Is five minutes past?",
+          "pronunciation_tip": "On will ah koo-ig noh-mayd kah-cha?"
+        },
+        {
+          "irish": "Cén lá é inniu?",
+          "english": "What day is it today?",
+          "pronunciation_tip": "Kane law ay in-yoo?"
+        },
+        {
+          "irish": "Tá sé a haon a chlog.",
+          "english": "It's one o'clock.",
+          "pronunciation_tip": "Taw shay uh hayn uh khlog."
+        },
+        {
+          "irish": "Tá dhá bhliain déag agam.",
+          "english": "I am twelve years old.",
+          "pronunciation_tip": "Taw ghaw vlee-in jayg ah-guhm."
+        },
+        {
+          "irish": "Cén t-am atá ann?",
+          "english": "What time is it?",
+          "pronunciation_tip": "Kane tahm ah-taw on?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "uimhir",
+          "english": "number",
+          "pronunciation": "im-ir"
+        },
+        {
+          "irish": "deireadh seachtaine",
+          "english": "weekend",
+          "pronunciation": "der-ahk shokh-tin-eh"
+        },
+        {
+          "irish": "meán lae",
+          "english": "noon",
+          "pronunciation": "mayn lay"
+        },
+        {
+          "irish": "deireadh seachtaine",
+          "english": "weekend",
+          "pronunciation": "der-ahk shokh-tin-eh"
+        },
+        {
+          "irish": "amárach",
+          "english": "tomorrow",
+          "pronunciation": "ah-maw-rahk"
+        },
+        {
+          "irish": "lón",
+          "english": "lunch",
+          "pronunciation": "lone"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Telling Time",
+        "explanation": "In Irish, to tell the time, you use 'Tá sé' (It is) followed by the number for the hour. For half past, you use 'leathuair' (half an hour). For minutes past the hour, use 'a' before the number of minutes.",
+        "examples": [
+          "Tá sé a dó a chlog. (It is two o'clock.)",
+          "Tá sé leathuair tar éis a haon. (It is half past one.)",
+          "Tá sé a deich a chlog. (It is ten o'clock.)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the pronunciation of numbers 1-10 for accuracy.",
+        "Pay attention to the slender and broad vowels in Irish words.",
+        "Listen to native speakers for correct intonation and rhythm."
+      ],
+      "mini_task": {
+        "instruction": "Describe your daily routine using numbers and time expressions.",
+        "prompts": [
+          "What time do you wake up?",
+          "When do you have lunch?",
+          "What time do you go to bed?"
+        ]
+      }
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Tá / Níl / An bhfuil?",
+      "topic_desc": "To be (states, feelings, location)",
+      "core_phrases": [
+        {
+          "irish": "Tá mé go maith.",
+          "english": "I am well.",
+          "pronunciation_tip": "Taw may guh mah"
+        },
+        {
+          "irish": "Níl sé tuirseach.",
+          "english": "He is not tired.",
+          "pronunciation_tip": "Neel shay tur-shock"
+        },
+        {
+          "irish": "An bhfuil sí sásta?",
+          "english": "Is she happy?",
+          "pronunciation_tip": "On will she saw-sta"
+        },
+        {
+          "irish": "Táimid anseo.",
+          "english": "We are here.",
+          "pronunciation_tip": "Taw-mid on-shuh"
+        },
+        {
+          "irish": "Níl siad ansin.",
+          "english": "They are not there.",
+          "pronunciation_tip": "Neel shee-ad on-shin"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "go maith",
+          "english": "well",
+          "pronunciation": "guh mah"
+        },
+        {
+          "irish": "tuirseach",
+          "english": "tired",
+          "pronunciation": "tur-shock"
+        },
+        {
+          "irish": "sásta",
+          "english": "happy",
+          "pronunciation": "saw-sta"
+        },
+        {
+          "irish": "anseo",
+          "english": "here",
+          "pronunciation": "on-shuh"
+        },
+        {
+          "irish": "ansin",
+          "english": "there",
+          "pronunciation": "on-shin"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using Tá / Níl / An bhfuil?",
+        "explanation": "Tá is used for positive statements, Níl for negative statements, and An bhfuil for questions.",
+        "examples": [
+          "Tá mé tuirseach. (I am tired.)",
+          "Níl siad anseo. (They are not here.)",
+          "An bhfuil tú sásta? (Are you happy?)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Focus on the pronunciation of 'Tá' and 'Níl' as they are commonly used.",
+        "Pay attention to the slender 's' sound in 'sásta'.",
+        "Practice the pronunciation of 'bhfuil' which sounds like 'will'."
+      ],
+      "mini_task": {
+        "instruction": "Describe how you feel and where you are using the phrases learned.",
+        "prompts": [
+          "How would you say 'I am happy' in Irish?",
+          "Create a sentence using 'Níl' to say someone is not here.",
+          "Ask a friend if they are well using 'An bhfuil'."
+        ]
+      }
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "Is / Ní / An?",
+      "topic_desc": "To be (identity/classification)",
+      "core_phrases": [
+        {
+          "irish": "Is mise Gwen.",
+          "english": "I am Gwen.",
+          "pronunciation_tip": "Ish mish-eh Gwen"
+        },
+        {
+          "irish": "Níl sé sin ceart.",
+          "english": "That is not right.",
+          "pronunciation_tip": "Neel shay shin kyart"
+        },
+        {
+          "irish": "An t-asal sin?",
+          "english": "Is that the donkey?",
+          "pronunciation_tip": "On tah-suhl shin"
+        },
+        {
+          "irish": "Is é sin an cat.",
+          "english": "That is the cat.",
+          "pronunciation_tip": "Is ay shin on kaht"
+        },
+        {
+          "irish": "Níl siad sa bhaile.",
+          "english": "They are not at home.",
+          "pronunciation_tip": "Neel shee-ahd sah wahl-eh"
+        },
+        {
+          "irish": "An bhfuil tú sa chistin?",
+          "english": "Are you in the kitchen?",
+          "pronunciation_tip": "On wil too sah kish-teen"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "mé",
+          "english": "I, me",
+          "pronunciation": "may"
+        },
+        {
+          "irish": "tú",
+          "english": "you",
+          "pronunciation": "too"
+        },
+        {
+          "irish": "sé",
+          "english": "he",
+          "pronunciation": "shay"
+        },
+        {
+          "irish": "sí",
+          "english": "she",
+          "pronunciation": "shee"
+        },
+        {
+          "irish": "siad",
+          "english": "they",
+          "pronunciation": "shee-ahd"
+        },
+        {
+          "irish": "cat",
+          "english": "cat",
+          "pronunciation": "kaht"
+        },
+        {
+          "irish": "cistin",
+          "english": "kitchen",
+          "pronunciation": "kish-teen"
+        },
+        {
+          "irish": "asal",
+          "english": "donkey",
+          "pronunciation": "ah-suhl"
+        },
+        {
+          "irish": "bhaile",
+          "english": "home",
+          "pronunciation": "wahl-eh"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Identity and Classification",
+        "explanation": "Use 'Is' for affirmative statements, 'Ní' for negative statements, and 'An' for questions.",
+        "examples": [
+          "Is mise an múinteoir. (I am the teacher.)",
+          "Níl sé sin ceart. (That is not right.)",
+          "An bhfuil tú sa chistin? (Are you in the kitchen?)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Remember to pronounce 'Is' as 'ish' and 'Níl' as 'neel'.",
+        "Pay attention to the slender 's' sound in 'sé' and 'sí'.",
+        "Practice the broad 'a' sound in 'asal' and 'bhaile'."
+      ],
+      "mini_task": {
+        "instruction": "Describe three things around you using 'Is' or 'Níl'.",
+        "prompts": [
+          "An cat is ea é.",
+          "Níl an carr sa chistin.",
+          "Is mise an múinteoir."
+        ]
+      }
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "Agam/Agat/Aige…",
+      "topic_desc": "Possession",
+      "core_phrases": [
+        {
+          "irish": "Tá leabhar agam.",
+          "english": "I have a book.",
+          "pronunciation_tip": "Taw l-yow-er ah-gum"
+        },
+        {
+          "irish": "Níl peann agat.",
+          "english": "You don't have a pen.",
+          "pronunciation_tip": "Neel pen ah-gut"
+        },
+        {
+          "irish": "Tá bróg aige.",
+          "english": "He has a shoe.",
+          "pronunciation_tip": "Taw brog egg-eh"
+        },
+        {
+          "irish": "Tá cóta aici.",
+          "english": "She has a coat.",
+          "pronunciation_tip": "Taw koh-tah ah-kee"
+        },
+        {
+          "irish": "An bhfuil seift agaibh?",
+          "english": "Do you have a key?",
+          "pronunciation_tip": "On will shaft ah-giv"
+        },
+        {
+          "irish": "Tá ríomhaire agamsa.",
+          "english": "I have a computer.",
+          "pronunciation_tip": "Taw ree-oh-wire ah-gum-sah"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "leabhar",
+          "english": "book",
+          "pronunciation": "lyow-er"
+        },
+        {
+          "irish": "peann",
+          "english": "pen",
+          "pronunciation": "pen"
+        },
+        {
+          "irish": "bróg",
+          "english": "shoe",
+          "pronunciation": "brog"
+        },
+        {
+          "irish": "cóta",
+          "english": "coat",
+          "pronunciation": "koh-tah"
+        },
+        {
+          "irish": "seift",
+          "english": "key",
+          "pronunciation": "shaft"
+        },
+        {
+          "irish": "ríomhaire",
+          "english": "computer",
+          "pronunciation": "ree-oh-wire"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'agam', 'agat', 'aige', etc.",
+        "explanation": "In Irish, possession is indicated by using 'agam' (at me), 'agat' (at you), 'aige' (at him), 'aici' (at her), etc. before the possessed item.",
+        "examples": [
+          "Tá cat agam. (I have a cat.)",
+          "Níl carr agat. (You don't have a car.)",
+          "Tá madra aige. (He has a dog.)"
+        ]
+      },
+      "pronunciation_notes": [
+        "'agam' is pronounced 'ah-gum'",
+        "'agat' is pronounced 'ah-gut'",
+        "'aige' is pronounced 'egg-eh'"
+      ],
+      "mini_task": {
+        "instruction": "Describe 3 things you have and 2 things someone else has.",
+        "prompts": [
+          "Tá ______ agam.",
+          "Níl ______ agat.",
+          "Tá ______ aige.",
+          "An bhfuil ______ agaibh?",
+          "Tá ______ aici."
+        ]
+      }
+    },
+    {
+      "topic_id": 8,
+      "topic_name": "Ba mhaith liom…",
+      "topic_desc": "Wants & Requests",
+      "core_phrases": [
+        {
+          "irish": "Ba mhaith liom cupán tae, le do thoil.",
+          "english": "I would like a cup of tea, please.",
+          "pronunciation_tip": "Bah wyth lum coo-pawn tay, leh duh hull."
+        },
+        {
+          "irish": "An bhfuil tú in ann cabhrú liom?",
+          "english": "Can you help me?",
+          "pronunciation_tip": "On will too in on cow-roo lum?"
+        },
+        {
+          "irish": "Ba mhaith liom dul go dtí an siopa.",
+          "english": "I would like to go to the shop.",
+          "pronunciation_tip": "Bah wyth lum dule guh dee un shop-ah."
+        },
+        {
+          "irish": "An bhfuil an leabhar sin ar fáil?",
+          "english": "Is that book available?",
+          "pronunciation_tip": "On will on lour sin air fawl?"
+        },
+        {
+          "irish": "Ba mhaith liom ordú a dhéanamh.",
+          "english": "I would like to place an order.",
+          "pronunciation_tip": "Bah wyth lum or-doo ah yayn-uv."
+        },
+        {
+          "irish": "An bhfuil cead agam dul amach?",
+          "english": "May I go out?",
+          "pronunciation_tip": "On will kade ah-gum dule ah-mock?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "cupán tae",
+          "english": "cup of tea",
+          "pronunciation": "coo-pawn tay"
+        },
+        {
+          "irish": "cabhrú",
+          "english": "help",
+          "pronunciation": "cow-roo"
+        },
+        {
+          "irish": "siopa",
+          "english": "shop",
+          "pronunciation": "shop-ah"
+        },
+        {
+          "irish": "leabhar",
+          "english": "book",
+          "pronunciation": "lour"
+        },
+        {
+          "irish": "ordú",
+          "english": "order",
+          "pronunciation": "or-doo"
+        },
+        {
+          "irish": "cead",
+          "english": "permission",
+          "pronunciation": "kade"
+        },
+        {
+          "irish": "amach",
+          "english": "out",
+          "pronunciation": "ah-mock"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Ba mhaith liom' for expressing wants",
+        "explanation": "The phrase 'Ba mhaith liom' is used to express desires or wants in Irish. It is followed by the verb or noun that the speaker wants.",
+        "examples": [
+          "Ba mhaith liom bia.",
+          "Ba mhaith liom dul go dtí an phictiúrlann."
+        ]
+      },
+      "pronunciation_notes": [
+        "Remember to pronounce 'mh' as a 'w' sound.",
+        "Pay attention to the slender 'mhaith' sound.",
+        "Practice the pronunciation of 'dtí' as 'dee'.",
+        "The 'mh' in 'mhaith' is silent in pronunciation."
+      ],
+      "mini_task": {
+        "instruction": "Imagine you are in a café. Order a drink and ask for the bill.",
+        "prompts": [
+          "Order a cup of coffee.",
+          "Ask for the bill, please.",
+          "Thank the server."
+        ]
+      }
+    },
+    {
+      "topic_id": 9,
+      "topic_name": "Is maith liom / Ní maith liom…",
+      "topic_desc": "Likes & Dislikes",
+      "core_phrases": [
+        {
+          "irish": "Is maith liom ceol",
+          "english": "I like music",
+          "pronunciation_tip": "Is ma-ha lum kyol"
+        },
+        {
+          "irish": "Ní maith liom bia picil",
+          "english": "I don't like spicy food",
+          "pronunciation_tip": "Nee ma-ha lum bee-ah pick-il"
+        },
+        {
+          "irish": "Is maith liom spraoi a bheith agam",
+          "english": "I like to have fun",
+          "pronunciation_tip": "Is ma-ha lum spree ah veh ah-gum"
+        },
+        {
+          "irish": "Ní maith liom an aimsir fhuar",
+          "english": "I don't like the cold weather",
+          "pronunciation_tip": "Nee ma-ha lum on am-sir oo-ar"
+        },
+        {
+          "irish": "Is maith liom scannáin greannmhar",
+          "english": "I like funny movies",
+          "pronunciation_tip": "Is ma-ha lum skan-awn gran-var"
+        },
+        {
+          "irish": "Ní maith liom damáiste",
+          "english": "I don't like damage",
+          "pronunciation_tip": "Nee ma-ha lum dah-mawsh-te"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "ceol",
+          "english": "music",
+          "pronunciation": "kyol"
+        },
+        {
+          "irish": "bia picil",
+          "english": "spicy food",
+          "pronunciation": "bee-ah pick-il"
+        },
+        {
+          "irish": "spraoi",
+          "english": "fun",
+          "pronunciation": "spree"
+        },
+        {
+          "irish": "aimsir fhuar",
+          "english": "cold weather",
+          "pronunciation": "am-sir oo-ar"
+        },
+        {
+          "irish": "scannáin greannmhar",
+          "english": "funny movies",
+          "pronunciation": "skan-awn gran-var"
+        },
+        {
+          "irish": "damáiste",
+          "english": "damage",
+          "pronunciation": "dah-mawsh-te"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Is maith liom' and 'Ní maith liom'",
+        "explanation": "Use 'Is maith liom' to express likes and 'Ní maith liom' to express dislikes. Followed by the object of the liking/disliking.",
+        "examples": [
+          "Is maith liom an teilifís",
+          "Ní maith liom an aimsir fhuar",
+          "Is maith liom leabhair"
+        ]
+      },
+      "pronunciation_notes": [
+        "Focus on pronouncing 'maith' clearly",
+        "Pay attention to the slender 'mh' sound in 'maith'",
+        "Practice the rhythm of the phrases"
+      ],
+      "mini_task": {
+        "instruction": "Talk about your likes and dislikes. Use 'Is maith liom' and 'Ní maith liom' in your sentences.",
+        "prompts": [
+          "What music do you like?",
+          "Do you like spicy food?",
+          "What movies do you dislike?"
+        ]
+      }
+    },
+    {
+      "topic_id": 10,
+      "topic_name": "Briathra láithreacha",
+      "topic_desc": "Present tense starter pack",
+      "core_phrases": [
+        {
+          "irish": "Tá mé ag ithe.",
+          "english": "I am eating.",
+          "pronunciation_tip": "Taw may egg ih-ha"
+        },
+        {
+          "irish": "Tá tú ag rith.",
+          "english": "You are running.",
+          "pronunciation_tip": "Taw too egg ree"
+        },
+        {
+          "irish": "Tá sé ag caint.",
+          "english": "He is talking.",
+          "pronunciation_tip": "Taw shay egg kant"
+        },
+        {
+          "irish": "Tá sí ag léamh.",
+          "english": "She is reading.",
+          "pronunciation_tip": "Taw shee egg layv"
+        },
+        {
+          "irish": "Táimid ag foghlaim.",
+          "english": "We are learning.",
+          "pronunciation_tip": "Taw-mid egg fwee-lim"
+        },
+        {
+          "irish": "Tá siad ag ithe.",
+          "english": "They are eating.",
+          "pronunciation_tip": "Taw shee-ad egg ih-ha"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "ithim",
+          "english": "to eat",
+          "pronunciation": "ih-him"
+        },
+        {
+          "irish": "rith",
+          "english": "to run",
+          "pronunciation": "ree"
+        },
+        {
+          "irish": "caint",
+          "english": "to talk",
+          "pronunciation": "kant"
+        },
+        {
+          "irish": "léamh",
+          "english": "to read",
+          "pronunciation": "layv"
+        },
+        {
+          "irish": "foghlaim",
+          "english": "to learn",
+          "pronunciation": "fwee-lim"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Present Tense Formation",
+        "explanation": "In Irish, the present tense is formed by adding the appropriate endings to the root of the verb.",
+        "examples": [
+          "ith (to eat) -> ithim (I eat)",
+          "rith (to run) -> rithim (I run)",
+          "léamh (to read) -> léann sé (he reads)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Focus on the pronunciation of 'mh' as 'v'",
+        "Pay attention to the slender vowels in 'léamh'",
+        "Practice the nasal 'n' sound in 'ag caint'"
+      ],
+      "mini_task": {
+        "instruction": "Record yourself describing what you and others are currently doing using the present tense.",
+        "prompts": [
+          "Describe what you are eating.",
+          "Talk about someone running.",
+          "Mention what she is reading."
+        ]
+      }
+    },
+    {
+      "topic_id": 11,
+      "topic_name": "Briathra neamhrialta",
+      "topic_desc": "Essential irregular verbs",
+      "core_phrases": [
+        {
+          "irish": "Tá mé ag dul",
+          "english": "I am going",
+          "pronunciation_tip": "Taw may egg dull"
+        },
+        {
+          "irish": "Chonaic mé",
+          "english": "I saw",
+          "pronunciation_tip": "Kun-ik may"
+        },
+        {
+          "irish": "Déanaim",
+          "english": "I do/make",
+          "pronunciation_tip": "Day-nim"
+        },
+        {
+          "irish": "Cloisim",
+          "english": "I hear",
+          "pronunciation_tip": "Klish-im"
+        },
+        {
+          "irish": "Feicim",
+          "english": "I see",
+          "pronunciation_tip": "Fek-im"
+        },
+        {
+          "irish": "Téim",
+          "english": "I go",
+          "pronunciation_tip": "Tay-im"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "amach",
+          "english": "out",
+          "pronunciation": "ah-makh"
+        },
+        {
+          "irish": "isteach",
+          "english": "in",
+          "pronunciation": "iss-chak"
+        },
+        {
+          "irish": "thart",
+          "english": "around",
+          "pronunciation": "hart"
+        },
+        {
+          "irish": "thíos",
+          "english": "down",
+          "pronunciation": "hees"
+        },
+        {
+          "irish": "thuas",
+          "english": "up",
+          "pronunciation": "hoo-us"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Verbal Nouns",
+        "explanation": "Irregular verbs in Irish have unique verbal noun forms that are used in various contexts.",
+        "examples": [
+          "Táim ag dul go dtí an siopa.",
+          "Chonaic mé é ar an tsráid.",
+          "Tá sé ag déanamh obair mhaith."
+        ]
+      },
+      "pronunciation_notes": [
+        "Verbs in Irish can have different pronunciation patterns based on the context.",
+        "Pay attention to the stress on the syllables for correct pronunciation."
+      ],
+      "mini_task": {
+        "instruction": "Create 3 sentences using the irregular verbs provided.",
+        "prompts": [
+          "Tá mé ag dul go dtí an siopa.",
+          "Chonaic mé é ar an tsráid.",
+          "Déanaim cupán tae gach maidin."
+        ]
+      }
+    },
+    {
+      "topic_id": 12,
+      "topic_name": "Ceisteanna",
+      "topic_desc": "Question words",
+      "core_phrases": [
+        {
+          "irish": "Cad is ainm duit?",
+          "english": "What is your name?",
+          "pronunciation_tip": "Cad (kaad) is (iss) ainm (an-im) duit (ditch)"
+        },
+        {
+          "irish": "Cén t-am é?",
+          "english": "What time is it?",
+          "pronunciation_tip": "Cén (kayn) t-am (t-ahm) é (ay)"
+        },
+        {
+          "irish": "Cá bhfuil an siopa?",
+          "english": "Where is the shop?",
+          "pronunciation_tip": "Cá (kaw) bhfuil (wil) an (un) siopa (shup-ah)"
+        },
+        {
+          "irish": "Conas atá tú?",
+          "english": "How are you?",
+          "pronunciation_tip": "Conas (kun-us) atá (ah-taw) tú (too)"
+        },
+        {
+          "irish": "Cathain a bheidh tú ansin?",
+          "english": "When will you be there?",
+          "pronunciation_tip": "Cathain (kah-hin) a (uh) bheidh (vay) tú (too) ansin (un-shin)"
+        },
+        {
+          "irish": "Cén fáth ar thug tú sin dó?",
+          "english": "Why did you give that to him?",
+          "pronunciation_tip": "Cén (kayn) fáth (faw) ar (er) thug (hug) tú (too) sin (shin) dó (doh)"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "Cad",
+          "english": "What",
+          "pronunciation": "Cad (kaad)"
+        },
+        {
+          "irish": "Cén",
+          "english": "Which",
+          "pronunciation": "Cén (kayn)"
+        },
+        {
+          "irish": "Cá",
+          "english": "Where",
+          "pronunciation": "Cá (kaw)"
+        },
+        {
+          "irish": "Conas",
+          "english": "How",
+          "pronunciation": "Conas (kun-us)"
+        },
+        {
+          "irish": "Cathain",
+          "english": "When",
+          "pronunciation": "Cathain (kah-hin)"
+        },
+        {
+          "irish": "Cén fáth",
+          "english": "Why",
+          "pronunciation": "Cén fáth (kayn faw)"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Forming questions with question words",
+        "explanation": "Question words like 'Cad' (What), 'Cén' (Which), 'Cá' (Where), 'Conas' (How), 'Cathain' (When), 'Cén fáth' (Why) are used at the beginning of a sentence to form questions.",
+        "examples": [
+          "Cén t-am é? (What time is it?)",
+          "Conas atá tú? (How are you?)",
+          "Cá bhfuil an siopa? (Where is the shop?)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the pronunciation of 'Cad' as 'kaad' with emphasis on the 'a'.",
+        "Remember to pronounce 'Cén fáth' as 'kayn faw' with a slight pause between the words.",
+        "Pay attention to the pronunciation of 'Cathain' with the 'th' sound as in 'thin'."
+      ],
+      "mini_task": {
+        "instruction": "Record yourself asking and answering questions using the question words learned.",
+        "prompts": [
+          "Ask a friend 'Cén t-am é?' (What time is it?)",
+          "Respond to 'Conas atá tú?' (How are you?) with 'Tá mé go maith' (I am good).",
+          "Create a dialogue using 'Cá bhfuil an siopa?' (Where is the shop?)"
+        ]
+      }
+    },
+    {
+      "topic_id": 13,
+      "topic_name": "Sa bhaile",
+      "topic_desc": "At Home",
+      "core_phrases": [
+        {
+          "irish": "Tá sé anseo.",
+          "english": "It is here.",
+          "pronunciation_tip": "Taw shay on-shuh"
+        },
+        {
+          "irish": "Tá an seomra suite.",
+          "english": "The living room is tidy.",
+          "pronunciation_tip": "Taw on shohm-ruh suit-eh"
+        },
+        {
+          "irish": "Tá an leaba compordach.",
+          "english": "The bed is comfortable.",
+          "pronunciation_tip": "Taw on lah-buh kum-pur-dakh"
+        },
+        {
+          "irish": "Tá an chistin glan.",
+          "english": "The kitchen is clean.",
+          "pronunciation_tip": "Taw on kish-tin glahn"
+        },
+        {
+          "irish": "Tá an seomra folctha.",
+          "english": "The bathroom is clean.",
+          "pronunciation_tip": "Taw on shohm-ruh fohlk-thah"
+        },
+        {
+          "irish": "Tá an seomra codlata suite.",
+          "english": "The bedroom is tidy.",
+          "pronunciation_tip": "Taw on shohm-ruh kud-lah-tuh suit-eh"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "cistin",
+          "english": "kitchen",
+          "pronunciation": "kish-tin"
+        },
+        {
+          "irish": "leaba",
+          "english": "bed",
+          "pronunciation": "lah-buh"
+        },
+        {
+          "irish": "seomra folctha",
+          "english": "bathroom",
+          "pronunciation": "shohm-ruh fohlk-thah"
+        },
+        {
+          "irish": "seomra suite",
+          "english": "living room",
+          "pronunciation": "shohm-ruh suit-eh"
+        },
+        {
+          "irish": "seomra codlata",
+          "english": "bedroom",
+          "pronunciation": "shohm-ruh kud-lah-tuh"
+        },
+        {
+          "irish": "glan",
+          "english": "clean",
+          "pronunciation": "glahn"
+        },
+        {
+          "irish": "compordach",
+          "english": "comfortable",
+          "pronunciation": "kum-pur-dakh"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Tá' for stating",
+        "explanation": "Use 'Tá' to indicate that something is in a particular state or condition.",
+        "examples": [
+          "Tá an seomra folctha.",
+          "Tá an leaba compordach."
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the broad/slender vowel sounds.",
+        "Pay attention to the 'tá' sound, it's like 'taw' in English."
+      ],
+      "mini_task": {
+        "instruction": "Describe your home using at least 3 vocabulary words.",
+        "prompts": [
+          "What is in your kitchen?",
+          "How would you describe your bedroom?",
+          "Is your living room tidy or messy? Why?"
+        ]
+      }
+    },
+    {
+      "topic_id": 14,
+      "topic_name": "Bia & deoch",
+      "topic_desc": "Food & Drink",
+      "core_phrases": [
+        {
+          "irish": "Tá ocras orm",
+          "english": "I am hungry",
+          "pronunciation_tip": "Taw uck-russ urm"
+        },
+        {
+          "irish": "Ólann sé tae",
+          "english": "He drinks tea",
+          "pronunciation_tip": "Oh-lawn shay tay"
+        },
+        {
+          "irish": "Is maith liom cáca milis",
+          "english": "I like cake",
+          "pronunciation_tip": "Iss mah lyum kaw-ka mil-ish"
+        },
+        {
+          "irish": "An bhfuil arán agat?",
+          "english": "Do you have bread?",
+          "pronunciation_tip": "On will aw-rawn ug-ut"
+        },
+        {
+          "irish": "Bíonn siad ag ithe bia",
+          "english": "They eat food",
+          "pronunciation_tip": "Bee-un shee-ad egg ih-ha bee-ah"
+        },
+        {
+          "irish": "Tá uisce agam",
+          "english": "I have water",
+          "pronunciation_tip": "Taw ish-keh ug-um"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "bia",
+          "english": "food",
+          "pronunciation": "bee-ah"
+        },
+        {
+          "irish": "deoch",
+          "english": "drink",
+          "pronunciation": "dyuk"
+        },
+        {
+          "irish": "subh",
+          "english": "jam",
+          "pronunciation": "suv"
+        },
+        {
+          "irish": "sú",
+          "english": "juice",
+          "pronunciation": "soo"
+        },
+        {
+          "irish": "milseáin",
+          "english": "sweets",
+          "pronunciation": "mil-shawn"
+        },
+        {
+          "irish": "cáca",
+          "english": "cake",
+          "pronunciation": "kaw-ka"
+        },
+        {
+          "irish": "arbhar",
+          "english": "porridge",
+          "pronunciation": "ar-ur"
+        },
+        {
+          "irish": "iasc",
+          "english": "fish",
+          "pronunciation": "ee-ask"
+        },
+        {
+          "irish": "úll",
+          "english": "apple",
+          "pronunciation": "ool"
+        },
+        {
+          "irish": "cáis",
+          "english": "cheese",
+          "pronunciation": "kaw-ish"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Tá' for possession",
+        "explanation": "In Irish, 'Tá' is used to indicate possession. For example, 'Tá bainne agam' means 'I have milk'.",
+        "examples": [
+          "Tá subh agat",
+          "Tá uachtar agam",
+          "Tá bainne aige"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice pronouncing 'bh' as a 'v' sound",
+        "Pay attention to the slender vowels in 'deoch'",
+        "Focus on the stress in 'milseáin'"
+      ],
+      "mini_task": {
+        "instruction": "Describe your favorite food or drink using at least 3 vocabulary words.",
+        "prompts": [
+          "What is your favorite food?",
+          "How do you like your tea?",
+          "Describe a meal you enjoy"
+        ]
+      }
+    },
+    {
+      "topic_id": 15,
+      "topic_name": "Ag siopadóireacht",
+      "topic_desc": "Shopping",
+      "core_phrases": [
+        {
+          "irish": "Cén praghas atá air?",
+          "english": "What is the price?",
+          "pronunciation_tip": "Cayn prah-guhs ah-taw err?"
+        },
+        {
+          "irish": "An bhfuil sé ar díol?",
+          "english": "Is it for sale?",
+          "pronunciation_tip": "On will shay air johl?"
+        },
+        {
+          "irish": "Ba mhaith liom é seo, le do thoil.",
+          "english": "I would like this, please.",
+          "pronunciation_tip": "Bah why lum ay shuh, leh duh hull."
+        },
+        {
+          "irish": "An féidir liom é a fháil sa mheánseo?",
+          "english": "Can I get it in the medium size?",
+          "pronunciation_tip": "On fay-dir lum ay ah awl sah vayn-shuh?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "éadaí",
+          "english": "clothing",
+          "pronunciation": "ay-dee"
+        },
+        {
+          "irish": "bróga",
+          "english": "shoes",
+          "pronunciation": "broh-guh"
+        },
+        {
+          "irish": "earrings",
+          "english": "éadaí fiacla",
+          "pronunciation": "ay-dee fee-uh-cluh"
+        },
+        {
+          "irish": "scarf",
+          "english": "sciorta",
+          "pronunciation": "shur-tuh"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'An bhfuil' for questions",
+        "explanation": "In Irish, 'An bhfuil' is used to form yes/no questions. It literally means 'Is there'.",
+        "examples": [
+          "An bhfuil tú ag iarraidh é?",
+          "An bhfuil sí ar díol?",
+          "An bhfuil sé sin sa mheánseo?"
+        ]
+      },
+      "pronunciation_notes": [
+        "Remember to stress the first syllable in 'éadaí' and 'bróga'.",
+        "The 'fh' in 'fháil' is silent.",
+        "Practice the rolling 'r' sound in 'bróga'."
+      ],
+      "mini_task": {
+        "instruction": "Imagine you are in a shop. Ask the shopkeeper 3 questions about different items.",
+        "prompts": [
+          "Ask about the price of a scarf.",
+          "Inquire if the shoes are on sale.",
+          "Request to see the earrings."
+        ]
+      }
+    },
+    {
+      "topic_id": 16,
+      "topic_name": "Aimsir",
+      "topic_desc": "Weather",
+      "core_phrases": [
+        {
+          "irish": "Tá sé ag cur báistí.",
+          "english": "It's raining.",
+          "pronunciation_tip": "Taw shay egg cur baw-shtee"
+        },
+        {
+          "irish": "Tá sé gaofar inniu.",
+          "english": "It's windy today.",
+          "pronunciation_tip": "Taw shay gay-fer in-yoo"
+        },
+        {
+          "irish": "Tá sé tirim sa teach.",
+          "english": "It's dry in the house.",
+          "pronunciation_tip": "Taw shay cheer-im sah chokh"
+        },
+        {
+          "irish": "Tá sé fluich amuigh.",
+          "english": "It's wet outside.",
+          "pronunciation_tip": "Taw shay flookh ah-mwee"
+        },
+        {
+          "irish": "An bhfuil sé scamallach?",
+          "english": "Is it cloudy?",
+          "pronunciation_tip": "On will shay skam-ah-lakh"
+        },
+        {
+          "irish": "Tá sé te agus grianmhar.",
+          "english": "It's warm and sunny.",
+          "pronunciation_tip": "Taw shay teh ah-gus gree-an-wahr"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "grian",
+          "english": "sun",
+          "pronunciation": "gree-an"
+        },
+        {
+          "irish": "scamall",
+          "english": "cloud",
+          "pronunciation": "skam-ahl"
+        },
+        {
+          "irish": "stoirm",
+          "english": "storm",
+          "pronunciation": "stir-m"
+        },
+        {
+          "irish": "téamh domhanda",
+          "english": "global warming",
+          "pronunciation": "tayv doh-wan-duh"
+        },
+        {
+          "irish": "reatha",
+          "english": "frost",
+          "pronunciation": "rah-ha"
+        },
+        {
+          "irish": "drúcht",
+          "english": "dew",
+          "pronunciation": "drookht"
+        },
+        {
+          "irish": "tuar",
+          "english": "fog",
+          "pronunciation": "too-ar"
+        },
+        {
+          "irish": "gaoth",
+          "english": "wind",
+          "pronunciation": "gay"
+        },
+        {
+          "irish": "scáth",
+          "english": "shade",
+          "pronunciation": "skaw"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Tá' for weather descriptions",
+        "explanation": "In Irish, 'Tá' is used to express weather conditions. It is followed by an adjective to describe the weather.",
+        "examples": [
+          "Tá sé fuar. (It's cold.)",
+          "Tá sé tirim. (It's dry.)",
+          "Tá sé gaofar. (It's windy.)"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the pronunciation of 'gh' as in 'gaofar'. It's a voiced velar fricative sound.",
+        "Pay attention to the slender 'r' sound in 'grian'.",
+        "The 'mh' in 'stoirm' is pronounced as a 'w' sound."
+      ],
+      "mini_task": {
+        "instruction": "Describe today's weather using at least 3 different phrases.",
+        "prompts": [
+          "Is it sunny or cloudy today?",
+          "What is the temperature like?",
+          "How would you describe the wind?"
+        ]
+      }
+    },
+    {
+      "topic_id": 17,
+      "topic_name": "Taisteal simplí",
+      "topic_desc": "Simple Travel",
+      "core_phrases": [
+        {
+          "irish": "Cá bhfuil an stáisiún traenach?",
+          "english": "Where is the train station?",
+          "pronunciation_tip": "Kaw wil an staw-shoon trah-nuk"
+        },
+        {
+          "irish": "Téigh díreach ar aghaidh.",
+          "english": "Go straight ahead.",
+          "pronunciation_tip": "Tay dee-rakh er eye"
+        },
+        {
+          "irish": "An bhfuil bus ann?",
+          "english": "Is there a bus?",
+          "pronunciation_tip": "An wil bus on"
+        },
+        {
+          "irish": "Conas a théann mé go dtí an aerfort?",
+          "english": "How do I get to the airport?",
+          "pronunciation_tip": "Kun-us a hayn may go dee an air-fort"
+        },
+        {
+          "irish": "An bhfuil taxi ag fanacht linn?",
+          "english": "Is the taxi waiting for us?",
+          "pronunciation_tip": "An wil taxi eg fahn-ukht lin"
+        },
+        {
+          "irish": "Ar mhaith leat ticéad ar an traein?",
+          "english": "Would you like a ticket on the train?",
+          "pronunciation_tip": "Air wuh lat tick-ayd er an trayn"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "stáisiún traenach",
+          "english": "train station",
+          "pronunciation": "staw-shoon trah-nuk"
+        },
+        {
+          "irish": "téigh",
+          "english": "go",
+          "pronunciation": "tay"
+        },
+        {
+          "irish": "bus",
+          "english": "bus",
+          "pronunciation": "bus"
+        },
+        {
+          "irish": "aerfort",
+          "english": "airport",
+          "pronunciation": "air-fort"
+        },
+        {
+          "irish": "taxi",
+          "english": "taxi",
+          "pronunciation": "tak-see"
+        },
+        {
+          "irish": "ticéad",
+          "english": "ticket",
+          "pronunciation": "tick-ayd"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Asking for Directions",
+        "explanation": "Use 'Cá bhfuil' (Where is) to ask for locations. Example: Cá bhfuil an bialann? (Where is the restaurant?)",
+        "examples": [
+          "Cá bhfuil an bialann?",
+          "Cá bhfuil an ospidéal?",
+          "Cá bhfuil an banc?"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the 'bh' sound which is like a 'v' sound in English.",
+        "Pay attention to the slender 't' and 'd' sounds in Irish.",
+        "Focus on the stress patterns in longer phrases."
+      ],
+      "mini_task": {
+        "instruction": "Imagine you are a tourist asking for directions in a new city. Record yourself asking how to get to the nearest bus stop.",
+        "prompts": [
+          "Ask 'Cá bhfuil an stáisiún bus is cóngarach?' (Where is the nearest bus station?)",
+          "Express gratitude in Irish after receiving directions.",
+          "Ask for clarification if needed."
+        ]
+      }
+    },
+    {
+      "topic_id": 18,
+      "topic_name": "Aimsir chaite",
+      "topic_desc": "Past Tense",
+      "core_phrases": [
+        {
+          "irish": "Chonaic mé cara",
+          "english": "I saw a friend",
+          "pronunciation_tip": "KUN-ik may KAH-ruh"
+        },
+        {
+          "irish": "D'ith mé bricfeasta",
+          "english": "I ate breakfast",
+          "pronunciation_tip": "DEE may BRIK-fas-tuh"
+        },
+        {
+          "irish": "Chuaigh siad go dtí an phictiúrlann",
+          "english": "They went to the cinema",
+          "pronunciation_tip": "KOO-ee shee-ud guh dee un FIK-ture-lawn"
+        },
+        {
+          "irish": "D'ól sí tae",
+          "english": "She drank tea",
+          "pronunciation_tip": "DEE-ohl shee tah"
+        },
+        {
+          "irish": "Chuala mé ceol",
+          "english": "I heard music",
+          "pronunciation_tip": "KOO-luh may kyohl"
+        },
+        {
+          "irish": "D'fhág sé teacht",
+          "english": "He left coming",
+          "pronunciation_tip": "DAWG shay tukht"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "cara",
+          "english": "friend",
+          "pronunciation": "KAH-ruh"
+        },
+        {
+          "irish": "bricfeasta",
+          "english": "breakfast",
+          "pronunciation": "BRIK-fas-tuh"
+        },
+        {
+          "irish": "pictiúrlann",
+          "english": "cinema",
+          "pronunciation": "PIK-ture-lawn"
+        },
+        {
+          "irish": "tae",
+          "english": "tea",
+          "pronunciation": "tah"
+        },
+        {
+          "irish": "ceol",
+          "english": "music",
+          "pronunciation": "kyohl"
+        },
+        {
+          "irish": "teacht",
+          "english": "coming",
+          "pronunciation": "tyakht"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'D' or 'Chuaigh' for past actions",
+        "explanation": "In Irish, the past tense is often formed by adding 'D' before the verb for simple past actions. However, for actions that involve movement, 'Chuaigh' is used instead of 'D'.",
+        "examples": [
+          "D'ith mé",
+          "Chuaigh siad",
+          "D'ól sí"
+        ]
+      },
+      "pronunciation_notes": [
+        "In Irish, the 'ch' sound is like the 'ch' in Scottish 'loch'",
+        "The 'dh' sound is similar to the 'gh' in 'rough'"
+      ],
+      "mini_task": {
+        "instruction": "Describe your day yesterday using at least 3 past tense phrases.",
+        "prompts": [
+          "What did you eat for breakfast?",
+          "Where did you go in the evening?",
+          "Who did you meet yesterday?"
+        ]
+      }
+    },
+    {
+      "topic_id": 19,
+      "topic_name": "Aimsir fháistineach",
+      "topic_desc": "Future Tense - Plans",
+      "core_phrases": [
+        {
+          "irish": "Tá mé ag dul go dtí an phictiúrlann amárach.",
+          "english": "I am going to the cinema tomorrow.",
+          "pronunciation_tip": "Taw may egg dull guh dee un fik-chure-lawn ah-mar-ahk."
+        },
+        {
+          "irish": "Beidh mé ag foghlaim Gaeilge ar líne an tseachtain seo chugainn.",
+          "english": "I will be learning Irish online next week.",
+          "pronunciation_tip": "Bay may egg foh-lim Gwayl-guh air leen-eh ahk tchok-in."
+        },
+        {
+          "irish": "Tá sé ceaptha go mbeidh an aimsir go hálainn ar an deireadh seachtaine.",
+          "english": "It is expected that the weather will be beautiful at the weekend.",
+          "pronunciation_tip": "Taw shay kyap-ha guh may vay an am-shir guh hawl-in air un der-ahk shokh-tawn-eh."
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "pictiúrlann",
+          "english": "cinema",
+          "pronunciation": "pik-chure-lawn"
+        },
+        {
+          "irish": "foghlaim",
+          "english": "to learn",
+          "pronunciation": "foh-lim"
+        },
+        {
+          "irish": "ceaptha",
+          "english": "expected",
+          "pronunciation": "kyap-ha"
+        },
+        {
+          "irish": "hálainn",
+          "english": "beautiful",
+          "pronunciation": "hawl-in"
+        },
+        {
+          "irish": "deireadh seachtaine",
+          "english": "weekend",
+          "pronunciation": "der-ahk shokh-tawn-eh"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'Tá' and 'Beidh' for future tense",
+        "explanation": "Use 'Tá' for immediate future actions and 'Beidh' for future plans or predictions.",
+        "examples": [
+          "Tá mé ag dul go dtí an siopa.",
+          "Beidh mé ag caint le mo chara amárach."
+        ]
+      },
+      "pronunciation_notes": [
+        "In Irish, the future tense is formed using the verbs 'Tá' (is) and 'Beidh' (will be).",
+        "Pay attention to the slender and broad consonants for accurate pronunciation.",
+        "Practice linking words together smoothly for natural speech flow."
+      ],
+      "mini_task": {
+        "instruction": "Describe your plans for the upcoming weekend.",
+        "prompts": [
+          "What will you be doing on Saturday?",
+          "Where do you plan to go on Sunday?",
+          "Who will you meet during the weekend?"
+        ]
+      }
+    },
+    {
+      "topic_id": 20,
+      "topic_name": "Nascfhocail",
+      "topic_desc": "Connecting Words",
+      "core_phrases": [
+        {
+          "irish": "agus",
+          "english": "and",
+          "pronunciation_tip": "pronounced as 'ah-gus'"
+        },
+        {
+          "irish": "ach",
+          "english": "but",
+          "pronunciation_tip": "pronounced as 'akh'"
+        },
+        {
+          "irish": "mar",
+          "english": "because",
+          "pronunciation_tip": "pronounced as 'mahr'"
+        },
+        {
+          "irish": "cé go",
+          "english": "although",
+          "pronunciation_tip": "pronounced as 'kay guh'"
+        },
+        {
+          "irish": "ach is",
+          "english": "but also",
+          "pronunciation_tip": "pronounced as 'akh iss'"
+        },
+        {
+          "irish": "cé acu",
+          "english": "whether",
+          "pronunciation_tip": "pronounced as 'kay ah-koo'"
+        }
+      ],
+      "vocabulary": [
+        {
+          "irish": "agus",
+          "english": "and",
+          "pronunciation": "ah-gus"
+        },
+        {
+          "irish": "ach",
+          "english": "but",
+          "pronunciation": "akh"
+        },
+        {
+          "irish": "mar",
+          "english": "because",
+          "pronunciation": "mahr"
+        },
+        {
+          "irish": "cé",
+          "english": "although",
+          "pronunciation": "kay"
+        },
+        {
+          "irish": "acu",
+          "english": "whether",
+          "pronunciation": "ah-koo"
+        }
+      ],
+      "grammar_rule": {
+        "title": "Using 'agus', 'ach', 'mar', 'cé', 'ach is', 'cé acu' in sentences",
+        "explanation": "Connecting words are used to link ideas or clauses in a sentence. They help to show relationships between different parts of a sentence.",
+        "examples": [
+          "Tá mé ag ithe agus ól.",
+          "Bhí sé tuirseach ach lean sé ar aghaidh.",
+          "Mar tá sé fuar, tá sé ag caitheamh a sciorta.",
+          "Cé go bhfuil sé donn, tá sé geal.",
+          "Tá sé ag obair ach is maith leis é.",
+          "Cé acu a thagann tú?"
+        ]
+      },
+      "pronunciation_notes": [
+        "Practice the pronunciation of these connecting words to improve your fluency.",
+        "Pay attention to the flow of the sentence when using these words.",
+        "Try to use these words in context to remember their meanings better."
+      ],
+      "mini_task": {
+        "instruction": "Create 3 sentences using the connecting words provided.",
+        "prompts": [
+          "Describe your day using 'agus' and 'ach'.",
+          "Explain a decision you made using 'mar'.",
+          "Discuss a choice you have to make using 'cé'."
+        ]
+      }
+    }
+  ]
+}

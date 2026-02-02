@@ -70,6 +70,23 @@
   text-align: center;
 }
 
+.admin-link {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.admin-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .tagline {
   font-size: 0.9rem;
   font-style: italic;

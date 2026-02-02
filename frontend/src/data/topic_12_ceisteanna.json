@@ -1,0 +1,91 @@
+{
+  "topic_id": 12,
+  "topic_name": "Ceisteanna",
+  "topic_desc": "Question words",
+  "core_phrases": [
+    {
+      "irish": "Cad is ainm duit?",
+      "english": "What is your name?",
+      "pronunciation_tip": "Cad (kaad) is (iss) ainm (an-im) duit (ditch)"
+    },
+    {
+      "irish": "Cén t-am é?",
+      "english": "What time is it?",
+      "pronunciation_tip": "Cén (kayn) t-am (t-ahm) é (ay)"
+    },
+    {
+      "irish": "Cá bhfuil an siopa?",
+      "english": "Where is the shop?",
+      "pronunciation_tip": "Cá (kaw) bhfuil (wil) an (un) siopa (shup-ah)"
+    },
+    {
+      "irish": "Conas atá tú?",
+      "english": "How are you?",
+      "pronunciation_tip": "Conas (kun-us) atá (ah-taw) tú (too)"
+    },
+    {
+      "irish": "Cathain a bheidh tú ansin?",
+      "english": "When will you be there?",
+      "pronunciation_tip": "Cathain (kah-hin) a (uh) bheidh (vay) tú (too) ansin (un-shin)"
+    },
+    {
+      "irish": "Cén fáth ar thug tú sin dó?",
+      "english": "Why did you give that to him?",
+      "pronunciation_tip": "Cén (kayn) fáth (faw) ar (er) thug (hug) tú (too) sin (shin) dó (doh)"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "Cad",
+      "english": "What",
+      "pronunciation": "Cad (kaad)"
+    },
+    {
+      "irish": "Cén",
+      "english": "Which",
+      "pronunciation": "Cén (kayn)"
+    },
+    {
+      "irish": "Cá",
+      "english": "Where",
+      "pronunciation": "Cá (kaw)"
+    },
+    {
+      "irish": "Conas",
+      "english": "How",
+      "pronunciation": "Conas (kun-us)"
+    },
+    {
+      "irish": "Cathain",
+      "english": "When",
+      "pronunciation": "Cathain (kah-hin)"
+    },
+    {
+      "irish": "Cén fáth",
+      "english": "Why",
+      "pronunciation": "Cén fáth (kayn faw)"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Forming questions with question words",
+    "explanation": "Question words like 'Cad' (What), 'Cén' (Which), 'Cá' (Where), 'Conas' (How), 'Cathain' (When), 'Cén fáth' (Why) are used at the beginning of a sentence to form questions.",
+    "examples": [
+      "Cén t-am é? (What time is it?)",
+      "Conas atá tú? (How are you?)",
+      "Cá bhfuil an siopa? (Where is the shop?)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the pronunciation of 'Cad' as 'kaad' with emphasis on the 'a'.",
+    "Remember to pronounce 'Cén fáth' as 'kayn faw' with a slight pause between the words.",
+    "Pay attention to the pronunciation of 'Cathain' with the 'th' sound as in 'thin'."
+  ],
+  "mini_task": {
+    "instruction": "Record yourself asking and answering questions using the question words learned.",
+    "prompts": [
+      "Ask a friend 'Cén t-am é?' (What time is it?)",
+      "Respond to 'Conas atá tú?' (How are you?) with 'Tá mé go maith' (I am good).",
+      "Create a dialogue using 'Cá bhfuil an siopa?' (Where is the shop?)"
+    ]
+  }
+}

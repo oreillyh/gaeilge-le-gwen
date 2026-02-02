@@ -1,0 +1,90 @@
+{
+  "topic_id": 18,
+  "topic_name": "Aimsir chaite",
+  "topic_desc": "Past Tense",
+  "core_phrases": [
+    {
+      "irish": "Chonaic mé cara",
+      "english": "I saw a friend",
+      "pronunciation_tip": "KUN-ik may KAH-ruh"
+    },
+    {
+      "irish": "D'ith mé bricfeasta",
+      "english": "I ate breakfast",
+      "pronunciation_tip": "DEE may BRIK-fas-tuh"
+    },
+    {
+      "irish": "Chuaigh siad go dtí an phictiúrlann",
+      "english": "They went to the cinema",
+      "pronunciation_tip": "KOO-ee shee-ud guh dee un FIK-ture-lawn"
+    },
+    {
+      "irish": "D'ól sí tae",
+      "english": "She drank tea",
+      "pronunciation_tip": "DEE-ohl shee tah"
+    },
+    {
+      "irish": "Chuala mé ceol",
+      "english": "I heard music",
+      "pronunciation_tip": "KOO-luh may kyohl"
+    },
+    {
+      "irish": "D'fhág sé teacht",
+      "english": "He left coming",
+      "pronunciation_tip": "DAWG shay tukht"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "cara",
+      "english": "friend",
+      "pronunciation": "KAH-ruh"
+    },
+    {
+      "irish": "bricfeasta",
+      "english": "breakfast",
+      "pronunciation": "BRIK-fas-tuh"
+    },
+    {
+      "irish": "pictiúrlann",
+      "english": "cinema",
+      "pronunciation": "PIK-ture-lawn"
+    },
+    {
+      "irish": "tae",
+      "english": "tea",
+      "pronunciation": "tah"
+    },
+    {
+      "irish": "ceol",
+      "english": "music",
+      "pronunciation": "kyohl"
+    },
+    {
+      "irish": "teacht",
+      "english": "coming",
+      "pronunciation": "tyakht"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'D' or 'Chuaigh' for past actions",
+    "explanation": "In Irish, the past tense is often formed by adding 'D' before the verb for simple past actions. However, for actions that involve movement, 'Chuaigh' is used instead of 'D'.",
+    "examples": [
+      "D'ith mé",
+      "Chuaigh siad",
+      "D'ól sí"
+    ]
+  },
+  "pronunciation_notes": [
+    "In Irish, the 'ch' sound is like the 'ch' in Scottish 'loch'",
+    "The 'dh' sound is similar to the 'gh' in 'rough'"
+  ],
+  "mini_task": {
+    "instruction": "Describe your day yesterday using at least 3 past tense phrases.",
+    "prompts": [
+      "What did you eat for breakfast?",
+      "Where did you go in the evening?",
+      "Who did you meet yesterday?"
+    ]
+  }
+}

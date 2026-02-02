@@ -1,0 +1,71 @@
+{
+  "topic_id": 15,
+  "topic_name": "Ag siopadóireacht",
+  "topic_desc": "Shopping",
+  "core_phrases": [
+    {
+      "irish": "Cén praghas atá air?",
+      "english": "What is the price?",
+      "pronunciation_tip": "Cayn prah-guhs ah-taw err?"
+    },
+    {
+      "irish": "An bhfuil sé ar díol?",
+      "english": "Is it for sale?",
+      "pronunciation_tip": "On will shay air johl?"
+    },
+    {
+      "irish": "Ba mhaith liom é seo, le do thoil.",
+      "english": "I would like this, please.",
+      "pronunciation_tip": "Bah why lum ay shuh, leh duh hull."
+    },
+    {
+      "irish": "An féidir liom é a fháil sa mheánseo?",
+      "english": "Can I get it in the medium size?",
+      "pronunciation_tip": "On fay-dir lum ay ah awl sah vayn-shuh?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "éadaí",
+      "english": "clothing",
+      "pronunciation": "ay-dee"
+    },
+    {
+      "irish": "bróga",
+      "english": "shoes",
+      "pronunciation": "broh-guh"
+    },
+    {
+      "irish": "earrings",
+      "english": "éadaí fiacla",
+      "pronunciation": "ay-dee fee-uh-cluh"
+    },
+    {
+      "irish": "scarf",
+      "english": "sciorta",
+      "pronunciation": "shur-tuh"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'An bhfuil' for questions",
+    "explanation": "In Irish, 'An bhfuil' is used to form yes/no questions. It literally means 'Is there'.",
+    "examples": [
+      "An bhfuil tú ag iarraidh é?",
+      "An bhfuil sí ar díol?",
+      "An bhfuil sé sin sa mheánseo?"
+    ]
+  },
+  "pronunciation_notes": [
+    "Remember to stress the first syllable in 'éadaí' and 'bróga'.",
+    "The 'fh' in 'fháil' is silent.",
+    "Practice the rolling 'r' sound in 'bróga'."
+  ],
+  "mini_task": {
+    "instruction": "Imagine you are in a shop. Ask the shopkeeper 3 questions about different items.",
+    "prompts": [
+      "Ask about the price of a scarf.",
+      "Inquire if the shoes are on sale.",
+      "Request to see the earrings."
+    ]
+  }
+}

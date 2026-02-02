@@ -1,0 +1,91 @@
+{
+  "topic_id": 9,
+  "topic_name": "Is maith liom / Ní maith liom…",
+  "topic_desc": "Likes & Dislikes",
+  "core_phrases": [
+    {
+      "irish": "Is maith liom ceol",
+      "english": "I like music",
+      "pronunciation_tip": "Is ma-ha lum kyol"
+    },
+    {
+      "irish": "Ní maith liom bia picil",
+      "english": "I don't like spicy food",
+      "pronunciation_tip": "Nee ma-ha lum bee-ah pick-il"
+    },
+    {
+      "irish": "Is maith liom spraoi a bheith agam",
+      "english": "I like to have fun",
+      "pronunciation_tip": "Is ma-ha lum spree ah veh ah-gum"
+    },
+    {
+      "irish": "Ní maith liom an aimsir fhuar",
+      "english": "I don't like the cold weather",
+      "pronunciation_tip": "Nee ma-ha lum on am-sir oo-ar"
+    },
+    {
+      "irish": "Is maith liom scannáin greannmhar",
+      "english": "I like funny movies",
+      "pronunciation_tip": "Is ma-ha lum skan-awn gran-var"
+    },
+    {
+      "irish": "Ní maith liom damáiste",
+      "english": "I don't like damage",
+      "pronunciation_tip": "Nee ma-ha lum dah-mawsh-te"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "ceol",
+      "english": "music",
+      "pronunciation": "kyol"
+    },
+    {
+      "irish": "bia picil",
+      "english": "spicy food",
+      "pronunciation": "bee-ah pick-il"
+    },
+    {
+      "irish": "spraoi",
+      "english": "fun",
+      "pronunciation": "spree"
+    },
+    {
+      "irish": "aimsir fhuar",
+      "english": "cold weather",
+      "pronunciation": "am-sir oo-ar"
+    },
+    {
+      "irish": "scannáin greannmhar",
+      "english": "funny movies",
+      "pronunciation": "skan-awn gran-var"
+    },
+    {
+      "irish": "damáiste",
+      "english": "damage",
+      "pronunciation": "dah-mawsh-te"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Is maith liom' and 'Ní maith liom'",
+    "explanation": "Use 'Is maith liom' to express likes and 'Ní maith liom' to express dislikes. Followed by the object of the liking/disliking.",
+    "examples": [
+      "Is maith liom an teilifís",
+      "Ní maith liom an aimsir fhuar",
+      "Is maith liom leabhair"
+    ]
+  },
+  "pronunciation_notes": [
+    "Focus on pronouncing 'maith' clearly",
+    "Pay attention to the slender 'mh' sound in 'maith'",
+    "Practice the rhythm of the phrases"
+  ],
+  "mini_task": {
+    "instruction": "Talk about your likes and dislikes. Use 'Is maith liom' and 'Ní maith liom' in your sentences.",
+    "prompts": [
+      "What music do you like?",
+      "Do you like spicy food?",
+      "What movies do you dislike?"
+    ]
+  }
+}

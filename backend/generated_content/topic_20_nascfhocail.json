@@ -1,0 +1,89 @@
+{
+  "topic_id": 20,
+  "topic_name": "Nascfhocail",
+  "topic_desc": "Connecting Words",
+  "core_phrases": [
+    {
+      "irish": "agus",
+      "english": "and",
+      "pronunciation_tip": "pronounced as 'ah-gus'"
+    },
+    {
+      "irish": "ach",
+      "english": "but",
+      "pronunciation_tip": "pronounced as 'akh'"
+    },
+    {
+      "irish": "mar",
+      "english": "because",
+      "pronunciation_tip": "pronounced as 'mahr'"
+    },
+    {
+      "irish": "cé go",
+      "english": "although",
+      "pronunciation_tip": "pronounced as 'kay guh'"
+    },
+    {
+      "irish": "ach is",
+      "english": "but also",
+      "pronunciation_tip": "pronounced as 'akh iss'"
+    },
+    {
+      "irish": "cé acu",
+      "english": "whether",
+      "pronunciation_tip": "pronounced as 'kay ah-koo'"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "agus",
+      "english": "and",
+      "pronunciation": "ah-gus"
+    },
+    {
+      "irish": "ach",
+      "english": "but",
+      "pronunciation": "akh"
+    },
+    {
+      "irish": "mar",
+      "english": "because",
+      "pronunciation": "mahr"
+    },
+    {
+      "irish": "cé",
+      "english": "although",
+      "pronunciation": "kay"
+    },
+    {
+      "irish": "acu",
+      "english": "whether",
+      "pronunciation": "ah-koo"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'agus', 'ach', 'mar', 'cé', 'ach is', 'cé acu' in sentences",
+    "explanation": "Connecting words are used to link ideas or clauses in a sentence. They help to show relationships between different parts of a sentence.",
+    "examples": [
+      "Tá mé ag ithe agus ól.",
+      "Bhí sé tuirseach ach lean sé ar aghaidh.",
+      "Mar tá sé fuar, tá sé ag caitheamh a sciorta.",
+      "Cé go bhfuil sé donn, tá sé geal.",
+      "Tá sé ag obair ach is maith leis é.",
+      "Cé acu a thagann tú?"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the pronunciation of these connecting words to improve your fluency.",
+    "Pay attention to the flow of the sentence when using these words.",
+    "Try to use these words in context to remember their meanings better."
+  ],
+  "mini_task": {
+    "instruction": "Create 3 sentences using the connecting words provided.",
+    "prompts": [
+      "Describe your day using 'agus' and 'ach'.",
+      "Explain a decision you made using 'mar'.",
+      "Discuss a choice you have to make using 'cé'."
+    ]
+  }
+}

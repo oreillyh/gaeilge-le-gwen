@@ -1,0 +1,80 @@
+{
+  "topic_id": 2,
+  "topic_name": "Beannachtaí & Béasaíocht",
+  "topic_desc": "Greetings & Manners",
+  "core_phrases": [
+    {
+      "irish": "Dia duit",
+      "english": "Hello",
+      "pronunciation_tip": "dee-uh ditch"
+    },
+    {
+      "irish": "Conas atá tú?",
+      "english": "How are you?",
+      "pronunciation_tip": "kun-us ah-taw too"
+    },
+    {
+      "irish": "Go raibh maith agat",
+      "english": "Thank you",
+      "pronunciation_tip": "guh rev mah ah-gut"
+    },
+    {
+      "irish": "Le do thoil",
+      "english": "Please",
+      "pronunciation_tip": "leh duh hull"
+    },
+    {
+      "irish": "Abair arís é",
+      "english": "Say it again",
+      "pronunciation_tip": "ab-ir ah-reesh ay"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "Dia",
+      "english": "God",
+      "pronunciation": "dee-uh"
+    },
+    {
+      "irish": "Slán",
+      "english": "Goodbye",
+      "pronunciation": "slawn"
+    },
+    {
+      "irish": "Go raibh maith agat",
+      "english": "Thank you",
+      "pronunciation": "guh rev mah ah-gut"
+    },
+    {
+      "irish": "Míle buíochas",
+      "english": "Many thanks",
+      "pronunciation": "mee-leh boo-ee-khuss"
+    },
+    {
+      "irish": "Más é do thoil é",
+      "english": "Please",
+      "pronunciation": "maws ay duh hull ay"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Lenition (séimhiú)",
+    "explanation": "In Irish, the initial consonant of a noun can be lenited (séimhiú) after certain words like 'le' (with). This is indicated by adding an h after the initial consonant.",
+    "examples": [
+      "leabhar (book) → leabhair (with a book)",
+      "cathaoir (chair) → chathaoir (with a chair)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Irish pronunciation is phonetic, so pronounce each letter.",
+    "Pay attention to slender (i, e) and broad (a, o, u) vowels.",
+    "Practice speaking slowly and gradually increase your speed."
+  ],
+  "mini_task": {
+    "instruction": "Record a short greeting introducing yourself and thanking someone.",
+    "prompts": [
+      "Introduce yourself and say 'Hello'",
+      "Thank the person and say 'Please'",
+      "Ask how the person is doing and say 'Thank you'"
+    ]
+  }
+}

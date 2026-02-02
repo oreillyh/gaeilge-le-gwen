@@ -1,8 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Sidebar.css';
 
 function Sidebar() {
+  const navigate = useNavigate();
+  
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
@@ -36,6 +38,9 @@ function Sidebar() {
       </nav>
       
       <div className="sidebar-footer">
+        <button onClick={() => navigate('/admin/login')} className="admin-link">
+          🔐 Admin
+        </button>
         <p className="tagline">Go n-éirí an t-ádh leat!</p>
       </div>
     </aside>

@@ -1,0 +1,91 @@
+{
+  "topic_id": 4,
+  "topic_name": "Uimhreacha & Am",
+  "topic_desc": "Numbers & Time",
+  "core_phrases": [
+    {
+      "irish": "Tá a haon, a dó, a trí agam.",
+      "english": "I have one, two, three.",
+      "pronunciation_tip": "Taw uh hayn, uh doh, uh tree ah-guhm."
+    },
+    {
+      "irish": "An bhfuil a cúig nóiméad caite?",
+      "english": "Is five minutes past?",
+      "pronunciation_tip": "On will ah koo-ig noh-mayd kah-cha?"
+    },
+    {
+      "irish": "Cén lá é inniu?",
+      "english": "What day is it today?",
+      "pronunciation_tip": "Kane law ay in-yoo?"
+    },
+    {
+      "irish": "Tá sé a haon a chlog.",
+      "english": "It's one o'clock.",
+      "pronunciation_tip": "Taw shay uh hayn uh khlog."
+    },
+    {
+      "irish": "Tá dhá bhliain déag agam.",
+      "english": "I am twelve years old.",
+      "pronunciation_tip": "Taw ghaw vlee-in jayg ah-guhm."
+    },
+    {
+      "irish": "Cén t-am atá ann?",
+      "english": "What time is it?",
+      "pronunciation_tip": "Kane tahm ah-taw on?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "uimhir",
+      "english": "number",
+      "pronunciation": "im-ir"
+    },
+    {
+      "irish": "deireadh seachtaine",
+      "english": "weekend",
+      "pronunciation": "der-ahk shokh-tin-eh"
+    },
+    {
+      "irish": "meán lae",
+      "english": "noon",
+      "pronunciation": "mayn lay"
+    },
+    {
+      "irish": "deireadh seachtaine",
+      "english": "weekend",
+      "pronunciation": "der-ahk shokh-tin-eh"
+    },
+    {
+      "irish": "amárach",
+      "english": "tomorrow",
+      "pronunciation": "ah-maw-rahk"
+    },
+    {
+      "irish": "lón",
+      "english": "lunch",
+      "pronunciation": "lone"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Telling Time",
+    "explanation": "In Irish, to tell the time, you use 'Tá sé' (It is) followed by the number for the hour. For half past, you use 'leathuair' (half an hour). For minutes past the hour, use 'a' before the number of minutes.",
+    "examples": [
+      "Tá sé a dó a chlog. (It is two o'clock.)",
+      "Tá sé leathuair tar éis a haon. (It is half past one.)",
+      "Tá sé a deich a chlog. (It is ten o'clock.)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the pronunciation of numbers 1-10 for accuracy.",
+    "Pay attention to the slender and broad vowels in Irish words.",
+    "Listen to native speakers for correct intonation and rhythm."
+  ],
+  "mini_task": {
+    "instruction": "Describe your daily routine using numbers and time expressions.",
+    "prompts": [
+      "What time do you wake up?",
+      "When do you have lunch?",
+      "What time do you go to bed?"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "topic_id": 17,
+  "topic_name": "Taisteal simplí",
+  "topic_desc": "Simple Travel",
+  "core_phrases": [
+    {
+      "irish": "Cá bhfuil an stáisiún traenach?",
+      "english": "Where is the train station?",
+      "pronunciation_tip": "Kaw wil an staw-shoon trah-nuk"
+    },
+    {
+      "irish": "Téigh díreach ar aghaidh.",
+      "english": "Go straight ahead.",
+      "pronunciation_tip": "Tay dee-rakh er eye"
+    },
+    {
+      "irish": "An bhfuil bus ann?",
+      "english": "Is there a bus?",
+      "pronunciation_tip": "An wil bus on"
+    },
+    {
+      "irish": "Conas a théann mé go dtí an aerfort?",
+      "english": "How do I get to the airport?",
+      "pronunciation_tip": "Kun-us a hayn may go dee an air-fort"
+    },
+    {
+      "irish": "An bhfuil taxi ag fanacht linn?",
+      "english": "Is the taxi waiting for us?",
+      "pronunciation_tip": "An wil taxi eg fahn-ukht lin"
+    },
+    {
+      "irish": "Ar mhaith leat ticéad ar an traein?",
+      "english": "Would you like a ticket on the train?",
+      "pronunciation_tip": "Air wuh lat tick-ayd er an trayn"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "stáisiún traenach",
+      "english": "train station",
+      "pronunciation": "staw-shoon trah-nuk"
+    },
+    {
+      "irish": "téigh",
+      "english": "go",
+      "pronunciation": "tay"
+    },
+    {
+      "irish": "bus",
+      "english": "bus",
+      "pronunciation": "bus"
+    },
+    {
+      "irish": "aerfort",
+      "english": "airport",
+      "pronunciation": "air-fort"
+    },
+    {
+      "irish": "taxi",
+      "english": "taxi",
+      "pronunciation": "tak-see"
+    },
+    {
+      "irish": "ticéad",
+      "english": "ticket",
+      "pronunciation": "tick-ayd"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Asking for Directions",
+    "explanation": "Use 'Cá bhfuil' (Where is) to ask for locations. Example: Cá bhfuil an bialann? (Where is the restaurant?)",
+    "examples": [
+      "Cá bhfuil an bialann?",
+      "Cá bhfuil an ospidéal?",
+      "Cá bhfuil an banc?"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the 'bh' sound which is like a 'v' sound in English.",
+    "Pay attention to the slender 't' and 'd' sounds in Irish.",
+    "Focus on the stress patterns in longer phrases."
+  ],
+  "mini_task": {
+    "instruction": "Imagine you are a tourist asking for directions in a new city. Record yourself asking how to get to the nearest bus stop.",
+    "prompts": [
+      "Ask 'Cá bhfuil an stáisiún bus is cóngarach?' (Where is the nearest bus station?)",
+      "Express gratitude in Irish after receiving directions.",
+      "Ask for clarification if needed."
+    ]
+  }
+}

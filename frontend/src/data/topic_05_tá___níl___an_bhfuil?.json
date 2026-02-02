@@ -1,0 +1,81 @@
+{
+  "topic_id": 5,
+  "topic_name": "Tá / Níl / An bhfuil?",
+  "topic_desc": "To be (states, feelings, location)",
+  "core_phrases": [
+    {
+      "irish": "Tá mé go maith.",
+      "english": "I am well.",
+      "pronunciation_tip": "Taw may guh mah"
+    },
+    {
+      "irish": "Níl sé tuirseach.",
+      "english": "He is not tired.",
+      "pronunciation_tip": "Neel shay tur-shock"
+    },
+    {
+      "irish": "An bhfuil sí sásta?",
+      "english": "Is she happy?",
+      "pronunciation_tip": "On will she saw-sta"
+    },
+    {
+      "irish": "Táimid anseo.",
+      "english": "We are here.",
+      "pronunciation_tip": "Taw-mid on-shuh"
+    },
+    {
+      "irish": "Níl siad ansin.",
+      "english": "They are not there.",
+      "pronunciation_tip": "Neel shee-ad on-shin"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "go maith",
+      "english": "well",
+      "pronunciation": "guh mah"
+    },
+    {
+      "irish": "tuirseach",
+      "english": "tired",
+      "pronunciation": "tur-shock"
+    },
+    {
+      "irish": "sásta",
+      "english": "happy",
+      "pronunciation": "saw-sta"
+    },
+    {
+      "irish": "anseo",
+      "english": "here",
+      "pronunciation": "on-shuh"
+    },
+    {
+      "irish": "ansin",
+      "english": "there",
+      "pronunciation": "on-shin"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using Tá / Níl / An bhfuil?",
+    "explanation": "Tá is used for positive statements, Níl for negative statements, and An bhfuil for questions.",
+    "examples": [
+      "Tá mé tuirseach. (I am tired.)",
+      "Níl siad anseo. (They are not here.)",
+      "An bhfuil tú sásta? (Are you happy?)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Focus on the pronunciation of 'Tá' and 'Níl' as they are commonly used.",
+    "Pay attention to the slender 's' sound in 'sásta'.",
+    "Practice the pronunciation of 'bhfuil' which sounds like 'will'."
+  ],
+  "mini_task": {
+    "instruction": "Describe how you feel and where you are using the phrases learned.",
+    "prompts": [
+      "How would you say 'I am happy' in Irish?",
+      "Create a sentence using 'Níl' to say someone is not here.",
+      "Ask a friend if they are well using 'An bhfuil'."
+    ]
+  }
+}

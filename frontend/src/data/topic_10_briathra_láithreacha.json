@@ -1,0 +1,86 @@
+{
+  "topic_id": 10,
+  "topic_name": "Briathra láithreacha",
+  "topic_desc": "Present tense starter pack",
+  "core_phrases": [
+    {
+      "irish": "Tá mé ag ithe.",
+      "english": "I am eating.",
+      "pronunciation_tip": "Taw may egg ih-ha"
+    },
+    {
+      "irish": "Tá tú ag rith.",
+      "english": "You are running.",
+      "pronunciation_tip": "Taw too egg ree"
+    },
+    {
+      "irish": "Tá sé ag caint.",
+      "english": "He is talking.",
+      "pronunciation_tip": "Taw shay egg kant"
+    },
+    {
+      "irish": "Tá sí ag léamh.",
+      "english": "She is reading.",
+      "pronunciation_tip": "Taw shee egg layv"
+    },
+    {
+      "irish": "Táimid ag foghlaim.",
+      "english": "We are learning.",
+      "pronunciation_tip": "Taw-mid egg fwee-lim"
+    },
+    {
+      "irish": "Tá siad ag ithe.",
+      "english": "They are eating.",
+      "pronunciation_tip": "Taw shee-ad egg ih-ha"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "ithim",
+      "english": "to eat",
+      "pronunciation": "ih-him"
+    },
+    {
+      "irish": "rith",
+      "english": "to run",
+      "pronunciation": "ree"
+    },
+    {
+      "irish": "caint",
+      "english": "to talk",
+      "pronunciation": "kant"
+    },
+    {
+      "irish": "léamh",
+      "english": "to read",
+      "pronunciation": "layv"
+    },
+    {
+      "irish": "foghlaim",
+      "english": "to learn",
+      "pronunciation": "fwee-lim"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Present Tense Formation",
+    "explanation": "In Irish, the present tense is formed by adding the appropriate endings to the root of the verb.",
+    "examples": [
+      "ith (to eat) -> ithim (I eat)",
+      "rith (to run) -> rithim (I run)",
+      "léamh (to read) -> léann sé (he reads)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Focus on the pronunciation of 'mh' as 'v'",
+    "Pay attention to the slender vowels in 'léamh'",
+    "Practice the nasal 'n' sound in 'ag caint'"
+  ],
+  "mini_task": {
+    "instruction": "Record yourself describing what you and others are currently doing using the present tense.",
+    "prompts": [
+      "Describe what you are eating.",
+      "Talk about someone running.",
+      "Mention what she is reading."
+    ]
+  }
+}

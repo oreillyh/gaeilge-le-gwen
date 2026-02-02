@@ -1,0 +1,85 @@
+{
+  "topic_id": 11,
+  "topic_name": "Briathra neamhrialta",
+  "topic_desc": "Essential irregular verbs",
+  "core_phrases": [
+    {
+      "irish": "Tá mé ag dul",
+      "english": "I am going",
+      "pronunciation_tip": "Taw may egg dull"
+    },
+    {
+      "irish": "Chonaic mé",
+      "english": "I saw",
+      "pronunciation_tip": "Kun-ik may"
+    },
+    {
+      "irish": "Déanaim",
+      "english": "I do/make",
+      "pronunciation_tip": "Day-nim"
+    },
+    {
+      "irish": "Cloisim",
+      "english": "I hear",
+      "pronunciation_tip": "Klish-im"
+    },
+    {
+      "irish": "Feicim",
+      "english": "I see",
+      "pronunciation_tip": "Fek-im"
+    },
+    {
+      "irish": "Téim",
+      "english": "I go",
+      "pronunciation_tip": "Tay-im"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "amach",
+      "english": "out",
+      "pronunciation": "ah-makh"
+    },
+    {
+      "irish": "isteach",
+      "english": "in",
+      "pronunciation": "iss-chak"
+    },
+    {
+      "irish": "thart",
+      "english": "around",
+      "pronunciation": "hart"
+    },
+    {
+      "irish": "thíos",
+      "english": "down",
+      "pronunciation": "hees"
+    },
+    {
+      "irish": "thuas",
+      "english": "up",
+      "pronunciation": "hoo-us"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Verbal Nouns",
+    "explanation": "Irregular verbs in Irish have unique verbal noun forms that are used in various contexts.",
+    "examples": [
+      "Táim ag dul go dtí an siopa.",
+      "Chonaic mé é ar an tsráid.",
+      "Tá sé ag déanamh obair mhaith."
+    ]
+  },
+  "pronunciation_notes": [
+    "Verbs in Irish can have different pronunciation patterns based on the context.",
+    "Pay attention to the stress on the syllables for correct pronunciation."
+  ],
+  "mini_task": {
+    "instruction": "Create 3 sentences using the irregular verbs provided.",
+    "prompts": [
+      "Tá mé ag dul go dtí an siopa.",
+      "Chonaic mé é ar an tsráid.",
+      "Déanaim cupán tae gach maidin."
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "topic_id": 7,
+  "topic_name": "Agam/Agat/Aige…",
+  "topic_desc": "Possession",
+  "core_phrases": [
+    {
+      "irish": "Tá leabhar agam.",
+      "english": "I have a book.",
+      "pronunciation_tip": "Taw l-yow-er ah-gum"
+    },
+    {
+      "irish": "Níl peann agat.",
+      "english": "You don't have a pen.",
+      "pronunciation_tip": "Neel pen ah-gut"
+    },
+    {
+      "irish": "Tá bróg aige.",
+      "english": "He has a shoe.",
+      "pronunciation_tip": "Taw brog egg-eh"
+    },
+    {
+      "irish": "Tá cóta aici.",
+      "english": "She has a coat.",
+      "pronunciation_tip": "Taw koh-tah ah-kee"
+    },
+    {
+      "irish": "An bhfuil seift agaibh?",
+      "english": "Do you have a key?",
+      "pronunciation_tip": "On will shaft ah-giv"
+    },
+    {
+      "irish": "Tá ríomhaire agamsa.",
+      "english": "I have a computer.",
+      "pronunciation_tip": "Taw ree-oh-wire ah-gum-sah"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "leabhar",
+      "english": "book",
+      "pronunciation": "lyow-er"
+    },
+    {
+      "irish": "peann",
+      "english": "pen",
+      "pronunciation": "pen"
+    },
+    {
+      "irish": "bróg",
+      "english": "shoe",
+      "pronunciation": "brog"
+    },
+    {
+      "irish": "cóta",
+      "english": "coat",
+      "pronunciation": "koh-tah"
+    },
+    {
+      "irish": "seift",
+      "english": "key",
+      "pronunciation": "shaft"
+    },
+    {
+      "irish": "ríomhaire",
+      "english": "computer",
+      "pronunciation": "ree-oh-wire"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'agam', 'agat', 'aige', etc.",
+    "explanation": "In Irish, possession is indicated by using 'agam' (at me), 'agat' (at you), 'aige' (at him), 'aici' (at her), etc. before the possessed item.",
+    "examples": [
+      "Tá cat agam. (I have a cat.)",
+      "Níl carr agat. (You don't have a car.)",
+      "Tá madra aige. (He has a dog.)"
+    ]
+  },
+  "pronunciation_notes": [
+    "'agam' is pronounced 'ah-gum'",
+    "'agat' is pronounced 'ah-gut'",
+    "'aige' is pronounced 'egg-eh'"
+  ],
+  "mini_task": {
+    "instruction": "Describe 3 things you have and 2 things someone else has.",
+    "prompts": [
+      "Tá ______ agam.",
+      "Níl ______ agat.",
+      "Tá ______ aige.",
+      "An bhfuil ______ agaibh?",
+      "Tá ______ aici."
+    ]
+  }
+}

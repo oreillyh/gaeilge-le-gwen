@@ -1,0 +1,106 @@
+{
+  "topic_id": 16,
+  "topic_name": "Aimsir",
+  "topic_desc": "Weather",
+  "core_phrases": [
+    {
+      "irish": "Tá sé ag cur báistí.",
+      "english": "It's raining.",
+      "pronunciation_tip": "Taw shay egg cur baw-shtee"
+    },
+    {
+      "irish": "Tá sé gaofar inniu.",
+      "english": "It's windy today.",
+      "pronunciation_tip": "Taw shay gay-fer in-yoo"
+    },
+    {
+      "irish": "Tá sé tirim sa teach.",
+      "english": "It's dry in the house.",
+      "pronunciation_tip": "Taw shay cheer-im sah chokh"
+    },
+    {
+      "irish": "Tá sé fluich amuigh.",
+      "english": "It's wet outside.",
+      "pronunciation_tip": "Taw shay flookh ah-mwee"
+    },
+    {
+      "irish": "An bhfuil sé scamallach?",
+      "english": "Is it cloudy?",
+      "pronunciation_tip": "On will shay skam-ah-lakh"
+    },
+    {
+      "irish": "Tá sé te agus grianmhar.",
+      "english": "It's warm and sunny.",
+      "pronunciation_tip": "Taw shay teh ah-gus gree-an-wahr"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "grian",
+      "english": "sun",
+      "pronunciation": "gree-an"
+    },
+    {
+      "irish": "scamall",
+      "english": "cloud",
+      "pronunciation": "skam-ahl"
+    },
+    {
+      "irish": "stoirm",
+      "english": "storm",
+      "pronunciation": "stir-m"
+    },
+    {
+      "irish": "téamh domhanda",
+      "english": "global warming",
+      "pronunciation": "tayv doh-wan-duh"
+    },
+    {
+      "irish": "reatha",
+      "english": "frost",
+      "pronunciation": "rah-ha"
+    },
+    {
+      "irish": "drúcht",
+      "english": "dew",
+      "pronunciation": "drookht"
+    },
+    {
+      "irish": "tuar",
+      "english": "fog",
+      "pronunciation": "too-ar"
+    },
+    {
+      "irish": "gaoth",
+      "english": "wind",
+      "pronunciation": "gay"
+    },
+    {
+      "irish": "scáth",
+      "english": "shade",
+      "pronunciation": "skaw"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Tá' for weather descriptions",
+    "explanation": "In Irish, 'Tá' is used to express weather conditions. It is followed by an adjective to describe the weather.",
+    "examples": [
+      "Tá sé fuar. (It's cold.)",
+      "Tá sé tirim. (It's dry.)",
+      "Tá sé gaofar. (It's windy.)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice the pronunciation of 'gh' as in 'gaofar'. It's a voiced velar fricative sound.",
+    "Pay attention to the slender 'r' sound in 'grian'.",
+    "The 'mh' in 'stoirm' is pronounced as a 'w' sound."
+  ],
+  "mini_task": {
+    "instruction": "Describe today's weather using at least 3 different phrases.",
+    "prompts": [
+      "Is it sunny or cloudy today?",
+      "What is the temperature like?",
+      "How would you describe the wind?"
+    ]
+  }
+}

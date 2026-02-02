@@ -1,0 +1,106 @@
+{
+  "topic_id": 6,
+  "topic_name": "Is / Ní / An?",
+  "topic_desc": "To be (identity/classification)",
+  "core_phrases": [
+    {
+      "irish": "Is mise Gwen.",
+      "english": "I am Gwen.",
+      "pronunciation_tip": "Ish mish-eh Gwen"
+    },
+    {
+      "irish": "Níl sé sin ceart.",
+      "english": "That is not right.",
+      "pronunciation_tip": "Neel shay shin kyart"
+    },
+    {
+      "irish": "An t-asal sin?",
+      "english": "Is that the donkey?",
+      "pronunciation_tip": "On tah-suhl shin"
+    },
+    {
+      "irish": "Is é sin an cat.",
+      "english": "That is the cat.",
+      "pronunciation_tip": "Is ay shin on kaht"
+    },
+    {
+      "irish": "Níl siad sa bhaile.",
+      "english": "They are not at home.",
+      "pronunciation_tip": "Neel shee-ahd sah wahl-eh"
+    },
+    {
+      "irish": "An bhfuil tú sa chistin?",
+      "english": "Are you in the kitchen?",
+      "pronunciation_tip": "On wil too sah kish-teen"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "mé",
+      "english": "I, me",
+      "pronunciation": "may"
+    },
+    {
+      "irish": "tú",
+      "english": "you",
+      "pronunciation": "too"
+    },
+    {
+      "irish": "sé",
+      "english": "he",
+      "pronunciation": "shay"
+    },
+    {
+      "irish": "sí",
+      "english": "she",
+      "pronunciation": "shee"
+    },
+    {
+      "irish": "siad",
+      "english": "they",
+      "pronunciation": "shee-ahd"
+    },
+    {
+      "irish": "cat",
+      "english": "cat",
+      "pronunciation": "kaht"
+    },
+    {
+      "irish": "cistin",
+      "english": "kitchen",
+      "pronunciation": "kish-teen"
+    },
+    {
+      "irish": "asal",
+      "english": "donkey",
+      "pronunciation": "ah-suhl"
+    },
+    {
+      "irish": "bhaile",
+      "english": "home",
+      "pronunciation": "wahl-eh"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Identity and Classification",
+    "explanation": "Use 'Is' for affirmative statements, 'Ní' for negative statements, and 'An' for questions.",
+    "examples": [
+      "Is mise an múinteoir. (I am the teacher.)",
+      "Níl sé sin ceart. (That is not right.)",
+      "An bhfuil tú sa chistin? (Are you in the kitchen?)"
+    ]
+  },
+  "pronunciation_notes": [
+    "Remember to pronounce 'Is' as 'ish' and 'Níl' as 'neel'.",
+    "Pay attention to the slender 's' sound in 'sé' and 'sí'.",
+    "Practice the broad 'a' sound in 'asal' and 'bhaile'."
+  ],
+  "mini_task": {
+    "instruction": "Describe three things around you using 'Is' or 'Níl'.",
+    "prompts": [
+      "An cat is ea é.",
+      "Níl an carr sa chistin.",
+      "Is mise an múinteoir."
+    ]
+  }
+}

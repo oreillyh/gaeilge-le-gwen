@@ -1,7 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Topics.css';
 
 function Topics() {
+  const navigate = useNavigate();
+  
   const topicSets = [
     {
       title: 'Bunús (Foundations)',
@@ -23,6 +26,14 @@ function Topics() {
       ]
     },
     {
+      title: 'Gníomhartha (High-frequency verbs)',
+      topics: [
+        { id: 10, name: 'Briathra láithreacha', desc: 'Present tense' },
+        { id: 11, name: 'Briathra neamhrialta', desc: 'Irregular verbs' },
+        { id: 12, name: 'Ceisteanna', desc: 'Question words' }
+      ]
+    },
+    {
       title: 'Saol laethúil (Daily Life)',
       topics: [
         { id: 13, name: 'Sa bhaile', desc: 'At Home' },
@@ -31,8 +42,20 @@ function Topics() {
         { id: 16, name: 'Aimsir', desc: 'Weather' },
         { id: 17, name: 'Taisteal simplí', desc: 'Simple Travel' }
       ]
+    },
+    {
+      title: 'Time & Narrative Basics',
+      topics: [
+        { id: 18, name: 'Aimsir chaite', desc: 'Past Tense' },
+        { id: 19, name: 'Aimsir fháistineach', desc: 'Future Tense' },
+        { id: 20, name: 'Nascfhocail', desc: 'Connecting Words' }
+      ]
     }
   ];
+
+  const handleTopicClick = (topicId) => {
+    navigate(`/topici/${topicId}`);
+  };
 
   return (
     <div className="topics-container">
@@ -50,7 +73,12 @@ function Topics() {
                 <div key={topic.id} className="topic-card">
                   <h3 className="topic-name">{topic.name}</h3>
                   <p className="topic-desc">{topic.desc}</p>
-                  <button className="topic-button">Tosaigh (Start)</button>
+                  <button 
+                    className="topic-button"
+                    onClick={() => handleTopicClick(topic.id)}
+                  >
+                    Tosaigh (Start)
+                  </button>
                 </div>
               ))}
             </div>

@@ -1,0 +1,70 @@
+{
+  "topic_id": 19,
+  "topic_name": "Aimsir fháistineach",
+  "topic_desc": "Future Tense - Plans",
+  "core_phrases": [
+    {
+      "irish": "Tá mé ag dul go dtí an phictiúrlann amárach.",
+      "english": "I am going to the cinema tomorrow.",
+      "pronunciation_tip": "Taw may egg dull guh dee un fik-chure-lawn ah-mar-ahk."
+    },
+    {
+      "irish": "Beidh mé ag foghlaim Gaeilge ar líne an tseachtain seo chugainn.",
+      "english": "I will be learning Irish online next week.",
+      "pronunciation_tip": "Bay may egg foh-lim Gwayl-guh air leen-eh ahk tchok-in."
+    },
+    {
+      "irish": "Tá sé ceaptha go mbeidh an aimsir go hálainn ar an deireadh seachtaine.",
+      "english": "It is expected that the weather will be beautiful at the weekend.",
+      "pronunciation_tip": "Taw shay kyap-ha guh may vay an am-shir guh hawl-in air un der-ahk shokh-tawn-eh."
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "pictiúrlann",
+      "english": "cinema",
+      "pronunciation": "pik-chure-lawn"
+    },
+    {
+      "irish": "foghlaim",
+      "english": "to learn",
+      "pronunciation": "foh-lim"
+    },
+    {
+      "irish": "ceaptha",
+      "english": "expected",
+      "pronunciation": "kyap-ha"
+    },
+    {
+      "irish": "hálainn",
+      "english": "beautiful",
+      "pronunciation": "hawl-in"
+    },
+    {
+      "irish": "deireadh seachtaine",
+      "english": "weekend",
+      "pronunciation": "der-ahk shokh-tawn-eh"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Tá' and 'Beidh' for future tense",
+    "explanation": "Use 'Tá' for immediate future actions and 'Beidh' for future plans or predictions.",
+    "examples": [
+      "Tá mé ag dul go dtí an siopa.",
+      "Beidh mé ag caint le mo chara amárach."
+    ]
+  },
+  "pronunciation_notes": [
+    "In Irish, the future tense is formed using the verbs 'Tá' (is) and 'Beidh' (will be).",
+    "Pay attention to the slender and broad consonants for accurate pronunciation.",
+    "Practice linking words together smoothly for natural speech flow."
+  ],
+  "mini_task": {
+    "instruction": "Describe your plans for the upcoming weekend.",
+    "prompts": [
+      "What will you be doing on Saturday?",
+      "Where do you plan to go on Sunday?",
+      "Who will you meet during the weekend?"
+    ]
+  }
+}

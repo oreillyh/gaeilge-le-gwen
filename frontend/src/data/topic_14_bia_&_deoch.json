@@ -1,0 +1,111 @@
+{
+  "topic_id": 14,
+  "topic_name": "Bia & deoch",
+  "topic_desc": "Food & Drink",
+  "core_phrases": [
+    {
+      "irish": "Tá ocras orm",
+      "english": "I am hungry",
+      "pronunciation_tip": "Taw uck-russ urm"
+    },
+    {
+      "irish": "Ólann sé tae",
+      "english": "He drinks tea",
+      "pronunciation_tip": "Oh-lawn shay tay"
+    },
+    {
+      "irish": "Is maith liom cáca milis",
+      "english": "I like cake",
+      "pronunciation_tip": "Iss mah lyum kaw-ka mil-ish"
+    },
+    {
+      "irish": "An bhfuil arán agat?",
+      "english": "Do you have bread?",
+      "pronunciation_tip": "On will aw-rawn ug-ut"
+    },
+    {
+      "irish": "Bíonn siad ag ithe bia",
+      "english": "They eat food",
+      "pronunciation_tip": "Bee-un shee-ad egg ih-ha bee-ah"
+    },
+    {
+      "irish": "Tá uisce agam",
+      "english": "I have water",
+      "pronunciation_tip": "Taw ish-keh ug-um"
+    }
+  ],
+  "vocabulary": [
+    {
+      "irish": "bia",
+      "english": "food",
+      "pronunciation": "bee-ah"
+    },
+    {
+      "irish": "deoch",
+      "english": "drink",
+      "pronunciation": "dyuk"
+    },
+    {
+      "irish": "subh",
+      "english": "jam",
+      "pronunciation": "suv"
+    },
+    {
+      "irish": "sú",
+      "english": "juice",
+      "pronunciation": "soo"
+    },
+    {
+      "irish": "milseáin",
+      "english": "sweets",
+      "pronunciation": "mil-shawn"
+    },
+    {
+      "irish": "cáca",
+      "english": "cake",
+      "pronunciation": "kaw-ka"
+    },
+    {
+      "irish": "arbhar",
+      "english": "porridge",
+      "pronunciation": "ar-ur"
+    },
+    {
+      "irish": "iasc",
+      "english": "fish",
+      "pronunciation": "ee-ask"
+    },
+    {
+      "irish": "úll",
+      "english": "apple",
+      "pronunciation": "ool"
+    },
+    {
+      "irish": "cáis",
+      "english": "cheese",
+      "pronunciation": "kaw-ish"
+    }
+  ],
+  "grammar_rule": {
+    "title": "Using 'Tá' for possession",
+    "explanation": "In Irish, 'Tá' is used to indicate possession. For example, 'Tá bainne agam' means 'I have milk'.",
+    "examples": [
+      "Tá subh agat",
+      "Tá uachtar agam",
+      "Tá bainne aige"
+    ]
+  },
+  "pronunciation_notes": [
+    "Practice pronouncing 'bh' as a 'v' sound",
+    "Pay attention to the slender vowels in 'deoch'",
+    "Focus on the stress in 'milseáin'"
+  ],
+  "mini_task": {
+    "instruction": "Describe your favorite food or drink using at least 3 vocabulary words.",
+    "prompts": [
+      "What is your favorite food?",
+      "How do you like your tea?",
+      "Describe a meal you enjoy"
+    ]
+  }
+}
