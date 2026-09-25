@@ -208,6 +208,6 @@ If you define your intended format — **self-paced only** vs **self-paced + tut
 This curriculum is designed to work with:
 - React components for each Activity Block type
 - JSON data structure for course/unit/lesson hierarchy
-- OpenAI API for generating personalized exercises and conversational practice
+- Anthropic Claude API, used by administrators to draft and refine course content (learners do not interact with the AI)
 - Audio files for pronunciation (can use text-to-speech initially, then replace with native speakers)
 - Spaced repetition algorithm for review scheduling

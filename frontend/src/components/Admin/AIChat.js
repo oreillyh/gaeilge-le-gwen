@@ -48,6 +48,11 @@ function AIChat() {
             content: `I've generated a topic based on your request! Here's a preview:\n\n**${response.topic.topic_name}** (${response.topic.topic_desc})\n\n• ${response.topic.core_phrases?.length || 0} core phrases\n• ${response.topic.vocabulary?.length || 0} vocabulary items\n• Grammar rule: ${response.topic.grammar_rule?.title || 'N/A'}\n\nWould you like to save this topic or make changes?`,
             topicData: response.topic
           }]);
+        } else {
+          setMessages(prev => [...prev, {
+            role: 'assistant',
+            content: `Sorry, I couldn't generate that topic: ${response.error || 'unknown error'}`
+          }]);
         }
       } else {
         // Regular chat
@@ -56,7 +61,7 @@ function AIChat() {
         
         setMessages(prev => [...prev, {
           role: 'assistant',
-          content: response.response
+          content: response.response ?? `Sorry, something went wrong: ${response.error || 'unknown error'}`
         }]);
       }
     } catch (error) {

@@ -6,7 +6,7 @@ An Irish language learning application with AI-assisted content authoring.
 
 Gaeilge le Gwen is an interactive platform for learning Irish (Gaeilge) through structured topics and lessons.
 
-AI is used only behind the scenes: administrators use OpenAI's GPT models to draft and refine course content, which is reviewed before publication. Learners do not interact with the LLM; everything they see is pre-authored content.
+AI is used only behind the scenes: administrators use Anthropic's Claude models to draft and refine course content, which is reviewed before publication. Learners do not interact with the LLM; everything they see is pre-authored content.
 
 ## Site Structure
 
@@ -39,15 +39,15 @@ Get in touch and manage your learning:
 
 - **Frontend**: React
 - **Backend**: Python (Flask/FastAPI)
-- **AI**: OpenAI API, used only in the admin panel for generating and editing course content (not exposed to learners)
+- **AI**: Anthropic Claude API (Claude Opus 5 by default), used only in the admin panel and content generation scripts for drafting and refining course content (not exposed to learners)
 - **Language**: Irish (Gaeilge) with English translations
 
 ## Getting Started
 
 ### Prerequisites
 - Node.js 16+ and npm
-- Python 3.8+
-- OpenAI API key
+- Python 3.10+
+- Anthropic API key (from the [Claude Console](https://console.anthropic.com/)), needed only for admin content generation
 
 ### Installation
 
@@ -62,7 +62,8 @@ cd "Gaeilge Tutor"
 cd backend
 pip install -r requirements.txt
 cp .env.example .env
-# Add your OPENAI_API_KEY to .env (needed only for admin content generation)
+# Add your ANTHROPIC_API_KEY and ADMIN_PASSWORD to .env
+# Optionally set CLAUDE_MODEL to use a different Claude model
 ```
 
 3. Set up the frontend:

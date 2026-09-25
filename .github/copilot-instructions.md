@@ -1,7 +1,7 @@
 # Copilot Instructions - Gaeilge Tutor
 
 ## Project Overview
-Gaeilge le Gwen is an Irish language learning application built with React (frontend) and Python (backend), leveraging OpenAI API for AI-powered language learning features. This project is in early development stages.
+Gaeilge le Gwen is an Irish language learning application built with React (frontend) and Python (backend), using Anthropic's Claude API to help administrators draft and refine course content. Learners never interact with the AI; everything they see is pre-authored, reviewed content. This project is in early development stages.
 
 ## Site Structure
 The application has three main sections:
@@ -11,16 +11,16 @@ The application has three main sections:
 
 ## Tech Stack
 - **Frontend**: React
-- **Backend**: Python
-- **AI Integration**: OpenAI API
+- **Backend**: Python (Flask)
+- **AI Integration**: Anthropic Claude API (admin-only content authoring)
 - **Language**: Irish (Gaeilge) language learning
 
 ## Development Setup
 
 ### Prerequisites
 - Node.js and npm (for React frontend)
-- Python 3.8+ (for backend)
-- OpenAI API key
+- Python 3.10+ (for backend)
+- Anthropic API key (admin content generation only)
 
 ### Getting Started
 ```bash
@@ -33,8 +33,9 @@ cd ../backend
 pip install -r requirements.txt
 
 # Set up environment variables
-# Create .env file with:
-# OPENAI_API_KEY=your_api_key_here
+# cp .env.example .env, then set:
+# ANTHROPIC_API_KEY=your_api_key_here
+# ADMIN_PASSWORD=your_admin_password
 
 # Run development servers
 # Terminal 1 - Frontend:
@@ -72,12 +73,11 @@ cd backend && python app.py
 
 ### Backend (Python)
 - RESTful API endpoints for lesson content and user progress
-- OpenAI integration for:
-  - Conversational practice (chatbot)
-  - Pronunciation feedback
-  - Personalized exercise generation
-  - Translation assistance
-- Separate concerns: routes, services, OpenAI utilities
+- Claude integration (admin endpoints and generation scripts only) for:
+  - Drafting new topics and exercises
+  - Refining and correcting existing content
+- Never expose AI endpoints to learners; all AI routes sit behind admin auth
+- Separate concerns: routes, services, Claude utilities (`claude_client.py`)
 
 ### Data Models
 - Lessons: structure, difficulty level, vocabulary, grammar points
@@ -101,11 +101,12 @@ cd frontend && npm run lint
 cd backend && pylint **/*.py
 ```
 
-### OpenAI Integration
-- Store API key in environment variables (never commit)
-- Implement retry logic for API calls
-- Use appropriate models: GPT-4 for complex tasks, GPT-3.5-turbo for simple responses
-- Cache common responses to reduce API costs
+### Claude Integration
+- Store the API key in environment variables (never commit)
+- Use the official `anthropic` Python SDK via the shared `claude_client.py` module
+- Default model is `claude-opus-5`; override with the `CLAUDE_MODEL` environment variable
+- Use structured outputs (the `Topic` Pydantic model) so generated content always matches the site's JSON format
+- The SDK retries rate limits and server errors automatically
 - Include Irish language context in prompts for better accuracy
 
 ### Content Management
@@ -123,16 +124,19 @@ cd backend && pylint **/*.py
 - Design for progressive difficulty levels
 - Validate AI-generated Irish text with native speakers or reliable sources
 
-### OpenAI Best Practices
-- Use system prompts to establish Irish language context
+### Claude Best Practices
+- Use system prompts to establish Irish language and curriculum context
 - Implement prompt templates for consistency
-- Handle API errors gracefully (rate limits, timeouts)
+- Handle API errors gracefully and show the admin a clear message
 - Monitor token usage to control costs
-- Store conversation history for contextual learning
-- Example prompt structure:
+- Example:
   ```python
-  system_prompt = "You are an Irish language tutor. Respond in both Irish and English."
-  user_message = f"Explain the grammar concept: {topic}"
+  import claude_client
+
+  topic = claude_client.generate_topic(
+      "You are an expert Irish language teacher and curriculum designer.",
+      "Create a beginner topic about the weather.",
+  )
   ```
 
 ### User Experience
@@ -140,8 +144,7 @@ cd backend && pylint **/*.py
 - Provide immediate feedback on exercises
 - Track and display learning progress
 - Make content accessible and engaging
-- Show loading states during AI responses
-- Allow users to regenerate AI responses if unsatisfactory
+- In the admin panel, show loading states during AI responses and let admins regenerate unsatisfactory drafts
 
 ## File Structure
 ```
@@ -155,7 +158,7 @@ cd backend && pylint **/*.py
   /routes          # API endpoints
   /services        # Business logic
   /models          # Data models
-  /openai_utils    # OpenAI integration
+  claude_client.py # Claude integration (admin content authoring)
   app.py           # Main application entry
   requirements.txt # Python dependencies
 /.env              # Environment variables (never commit)
@@ -166,5 +169,5 @@ cd backend && pylint **/*.py
 - Add `.env` to `.gitignore`
 - Use environment variables for all sensitive data
 - Implement rate limiting on API endpoints
-- Sanitize user inputs before sending to OpenAI
+- Sanitize admin inputs before sending to Claude
 - Validate and sanitize AI responses before displaying to users

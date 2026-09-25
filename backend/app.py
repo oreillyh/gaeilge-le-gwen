@@ -1,19 +1,19 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-from openai import OpenAI
 import os
 import json
 from dotenv import load_dotenv
 from functools import wraps
+
+import anthropic
+
+import claude_client
 
 # Load environment variables
 load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
-
-# Initialize OpenAI client
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Simple admin password (in production, use proper authentication)
 ADMIN_PASSWORD = os.getenv('ADMIN_PASSWORD', 'admin123')
@@ -157,29 +157,21 @@ When asked to create or modify content, respond with valid JSON that follows thi
 
 Be helpful, accurate with Irish grammar, and provide structured responses."""
 
-    messages = [
-        {"role": "system", "content": system_prompt}
-    ]
-    
+    # Claude conversations must start with a user turn, so earlier chat is passed inline
     if context:
-        messages.append({"role": "assistant", "content": context})
-    
-    messages.append({"role": "user", "content": user_message})
-    
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=messages,
-        temperature=0.7
-    )
-    
-    ai_response = response.choices[0].message.content
-    
+        user_message = f"Our conversation so far:\n\n{context}\n\n---\n\n{user_message}"
+
+    try:
+        ai_response, usage = claude_client.chat(system_prompt, user_message)
+    except (RuntimeError, anthropic.APIError) as e:
+        return jsonify({'error': str(e)}), 502
+
     return jsonify({
         'response': ai_response,
         'usage': {
-            'prompt_tokens': response.usage.prompt_tokens,
-            'completion_tokens': response.usage.completion_tokens,
-            'total_tokens': response.usage.total_tokens
+            'prompt_tokens': usage.input_tokens,
+            'completion_tokens': usage.output_tokens,
+            'total_tokens': usage.input_tokens + usage.output_tokens
         }
     })
 
@@ -196,40 +188,19 @@ Generate complete lesson content for beginner Irish learners in JSON format."""
 
 {topic_request}
 
-Return a JSON object with this exact structure:
-{{
-  "topic_name": "Irish name for the topic",
-  "topic_desc": "English description",
-  "core_phrases": [
-    {{"irish": "phrase", "english": "translation", "pronunciation_tip": "phonetic guide"}}
-  ] (6-10 phrases),
-  "vocabulary": [
-    {{"irish": "word", "english": "meaning", "pronunciation": "guide"}}
-  ] (10-15 words),
-  "grammar_rule": {{
-    "title": "Grammar rule name",
-    "explanation": "Clear explanation",
-    "examples": ["example1", "example2", "example3"]
-  }},
-  "pronunciation_notes": ["tip1", "tip2", "tip3"],
-  "mini_task": {{
-    "instruction": "Task description",
-    "prompts": ["prompt1", "prompt2", "prompt3"]
-  }}
-}}"""
+Include:
+- topic_name: the Irish name for the topic; topic_desc: an English description
+- 6-10 core phrases with English translations and phonetic pronunciation tips
+- 10-15 vocabulary items with meanings and pronunciation guides
+- One grammar rule with a clear explanation and 3 examples
+- 3 pronunciation notes
+- A mini task with an instruction and 3 prompts"""
 
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ],
-        temperature=0.3,
-        response_format={"type": "json_object"}
-    )
-    
-    topic_content = json.loads(response.choices[0].message.content)
-    
+    try:
+        topic_content = claude_client.generate_topic(system_prompt, user_prompt)
+    except (RuntimeError, anthropic.APIError) as e:
+        return jsonify({'error': str(e)}), 502
+
     return jsonify({
         'success': True,
         'topic': topic_content

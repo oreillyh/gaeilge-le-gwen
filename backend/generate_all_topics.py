@@ -1,14 +1,8 @@
-from openai import OpenAI
 import os
 import json
 import time
-from dotenv import load_dotenv
 
-# Load environment variables from .env file
-load_dotenv()
-
-# Initialize OpenAI client with API key from environment
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+import claude_client
 
 # Read the course design document
 with open('../COURSE_DESIGN.md', 'r') as f:
@@ -55,9 +49,7 @@ Your content should be:
 - Progressive in difficulty
 - Practical and immediately useful
 - Audio-first (phrase-based learning)
-- Culturally appropriate
-
-Generate content in JSON format for easy integration into the web application."""
+- Culturally appropriate"""
 
 def generate_topic_content(topic):
     """Generate content for a single topic"""
@@ -75,45 +67,10 @@ Include:
 2. Vocabulary set (10-15 items) with translations and pronunciation guides
 3. One grammar micro-rule relevant to this topic
 4. Pronunciation notes for beginners (2-4 tips)
-5. A mini speaking/writing task with 3-5 prompts
-
-Return the content as a JSON object with the following structure:
-{{
-  "topic_id": {topic['id']},
-  "topic_name": "{topic['name']}",
-  "topic_desc": "{topic['desc']}",
-  "core_phrases": [
-    {{"irish": "phrase", "english": "translation", "pronunciation_tip": "tip"}}
-  ],
-  "vocabulary": [
-    {{"irish": "word", "english": "meaning", "pronunciation": "guide"}}
-  ],
-  "grammar_rule": {{
-    "title": "rule name",
-    "explanation": "explanation",
-    "examples": ["example1", "example2", "example3"]
-  }},
-  "pronunciation_notes": ["note1", "note2", "note3"],
-  "mini_task": {{
-    "instruction": "task description",
-    "prompts": ["prompt1", "prompt2", "prompt3"]
-  }}
-}}"""
+5. A mini speaking/writing task with 3-5 prompts"""
     
-    # Make API call with lower temperature for logical, structured content
-    response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
-        ],
-        temperature=0.3,  # Lower temperature for more logical/consistent output
-        response_format={"type": "json_object"}  # Ensure JSON response
-    )
-    
-    # Parse the generated content
-    content = json.loads(response.choices[0].message.content)
-    return content
+    content = claude_client.generate_topic(system_prompt, user_prompt)
+    return {"topic_id": topic['id'], **content}
 
 # Create output directory
 os.makedirs('generated_content', exist_ok=True)
