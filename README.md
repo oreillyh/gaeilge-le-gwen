@@ -1,10 +1,12 @@
 # Gaeilge le Gwen
 
-An Irish language learning application powered by AI.
+An Irish language learning application with AI-assisted content authoring.
 
 ## About
 
-Gaeilge le Gwen is an interactive platform for learning Irish (Gaeilge), combining structured lessons with AI-powered conversational practice using OpenAI's GPT models.
+Gaeilge le Gwen is an interactive platform for learning Irish (Gaeilge) through structured topics and lessons.
+
+AI is used only behind the scenes: administrators use OpenAI's GPT models to draft and refine course content, which is reviewed before publication. Learners do not interact with the LLM; everything they see is pre-authored content.
 
 ## Site Structure
 
@@ -16,7 +18,6 @@ Browse and study Irish language topics organized by theme and difficulty level:
 - Grammar concepts and rules
 - Common phrases and expressions
 - Interactive exercises and quizzes
-- AI-powered conversation practice on each topic
 
 ### 2. Aiseanna (Lessons/Resources)
 Structured learning resources and tools:
@@ -25,7 +26,6 @@ Structured learning resources and tools:
 - Practice exercises
 - Pronunciation guides
 - Cultural context and background
-- Progress tracking and achievements
 
 ### 3. Teagmháil (Contact)
 Get in touch and manage your learning:
@@ -39,7 +39,7 @@ Get in touch and manage your learning:
 
 - **Frontend**: React
 - **Backend**: Python (Flask/FastAPI)
-- **AI**: OpenAI API for conversational practice and personalized learning
+- **AI**: OpenAI API, used only in the admin panel for generating and editing course content (not exposed to learners)
 - **Language**: Irish (Gaeilge) with English translations
 
 ## Getting Started
@@ -62,7 +62,7 @@ cd "Gaeilge Tutor"
 cd backend
 pip install -r requirements.txt
 cp .env.example .env
-# Add your OPENAI_API_KEY to .env
+# Add your OPENAI_API_KEY to .env (needed only for admin content generation)
 ```
 
 3. Set up the frontend:
@@ -89,12 +89,10 @@ The application will be available at `http://localhost:3000`
 
 ## Features
 
-- 🗣️ **AI Conversation Practice**: Chat with an AI tutor in Irish
 - 📚 **Structured Topics**: Learn vocabulary and grammar by theme
-- 🎯 **Progressive Learning**: Track your progress through lessons
-- 🔊 **Pronunciation Help**: Get feedback on Irish pronunciation
 - 🌍 **Cultural Context**: Learn about Irish culture alongside the language
 - 📱 **Responsive Design**: Works on desktop and mobile devices
+- 🛠️ **AI-Assisted Authoring (admin only)**: Administrators draft and edit topic content with AI; learners never interact with the LLM directly
 
 ## Development Status
 
